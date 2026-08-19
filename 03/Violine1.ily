@@ -1,5 +1,5 @@
 \relative {
-  \mvTr h'4.\fE-\markup { \remark "tenuto sempre" } h8 e4
+  h'4.\f-\markup { \remark "tenuto sempre" } h8 e4
   dis \appoggiatura dis8 e2
   a,8.-\tenuto g'16 \appoggiatura g8 fis4. e8
   \appoggiatura e dis8.\trill cis16 \appoggiatura cis8 h4 r %160

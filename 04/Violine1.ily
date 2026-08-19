@@ -27,7 +27,7 @@
   c c, c'4 h8 a a4~
   a g8 h a d, d'8. c16
   h8 f h,4 r2 %315
-  \mvTr h'2\f-\tenuto d
+  h'2-\ftenuto d
   es c
   h4 es2 d4
   r8 c4 h8 as c16 h as8. as16
@@ -47,7 +47,7 @@
   c h c8 e g4~
   g f2 e4 \noBreak
   d c2 h8.\trill h16 \bar "|" %335
-  \key c \dorian \newSpacingSection \tempoMiserereIII
+  \key c \dorian \newSpacingSection II
   c4 r r2 \noBreak
   as8.-\tenuto as16 as8. as16 as8. as16 as8. as16
   h8. h16 h8. h16 c8. c16 c8. d16
@@ -60,16 +60,16 @@
   h'8. h,16 h8. h16 h8-! h'([ as g)] %345
   as8. as,16 as8. as16 as8-! as'([ g fis)]
   g2. f8 e
-  <f d d,>4\fermata-\critnote r r2
+  <f d d,>4\fermata r r2
   <f d d, g,>8. q16 q8. q16 <es! g, g,>8. <es g, g,>16 q8. q16
   <d d, g,>8. q16 <e h! g g,>8. e16 f8-! c-! f4~ %350
   f es d4.\trill d8
-  c-! es([-. es-. es-.)] r es(-.\fE es-. es-.)
+  c-! es([-. es-. es-.)] r es(-.\f es-. es-.)
   r es(-.\ff es-. es-.) r es( d c)
   d-! f,([ es d)] r g( f es)
   r as( g f) r d'( c h) %355
   c c, c'2 h8 a
   h-! f([\pp es d)] r es( d c)
-  \mvTrh fis4.\ff-\tenuto fis8 g4~ g~\p
+  fis4.-\fftenuto fis8 g4~ g~\p
   g2\pp\fermata r \bar "|." %359 FINIS
 }

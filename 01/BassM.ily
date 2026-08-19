@@ -1,6 +1,6 @@
 \relative {
   R1*11 %11
-  \mvTr g'4.\f^\tuttiE g8 g2
+  g4.\f^\tutti g8 g2
   g, g'4. g8
   g1~
   g4 h c4. c8 %15
@@ -19,7 +19,7 @@
   g4. g8 g4 g
   g2 c,
   as'4. g8 fis2 %30
-  g2.^\critnote r4
+  g2. r4
   R1*4 %35
   R1\fermata \bar "|." %36 finis
 }

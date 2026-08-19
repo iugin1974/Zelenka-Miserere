@@ -1,6 +1,6 @@
 \relative {
   R1*4 %40
-  \mvTr c4.\fE^\tuttiE^\tenuto c8 e4 e
+  c4.\f^\tutti^\tenuto c8 e4 e
   f4. f8 d2
   c r
   r g4. g8
@@ -107,5 +107,5 @@
   c4 c'4. c8 c4
   c, c c c
   c4. c8 c4 c %155
-  \tempoMiserereIIFinis c4. c8 c2\fermata \bar "|." %156 finis
+  IFinis c4. c8 c2\fermata \bar "|." %156 finis
 }

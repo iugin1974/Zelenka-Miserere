@@ -1,5 +1,5 @@
 \relative {
-  h'2.\fE a4 g a
+  h'2.\f a4 g a
   h1 h2 %290
   R1.
   h2 h h
@@ -27,7 +27,7 @@
   g a8 g f4 e
   d4. e8 f2
   r8 g4 f8 es g c,8. c16 %315
-  d4 \mvTr h'\f-\tenuto d2
+  d4 h'-\ftenuto d2
   es c
   h4 es2 d8. d16
   c8 d es16 c d es f8 f, r4
@@ -45,13 +45,13 @@
   e8 g c h16 a g8 c a g16 f
   e8 c c'[ d] e4. d16 e
   f8 e d4 c4. h8
-  a4. g16 a h8 g c-\critnote d16 e \noBreak
+  a4. g16 a h8 g c d16 e \noBreak
   f4 e d4.\trill d8 \bar "|" %335
-  \key c \dorian \newSpacingSection \tempoMiserereIII
+  \key c \dorian \newSpacingSection II
   c4 r g16(-. g-. g-. g-. g-. g-. g-. g-.) \noBreak
   g(-. g-. g-. g-. g-. g-. g-. g-.) f(-. f-. f-. f-. f-. f-. f-. f-.)
   f(-. f-. f-. f-. f-. f-. f-. f-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
-  c(-. c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. c-.-\critnote c-. c-. c-.)
+  c(-. c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. c-. c-. c-. c-.)
   c(-. c-. c-. c-. h-. h-. h-. h-.) h(-. h-. h-. h-. h-. h-. h-. h-.) %340
   h(-. h-. h-. h-. a-. a-. a-. a-.) a(-. a-. a-. a-. a-. a-. a-. a-.)
   a4 g d'16(-. d-. d-. d-. d-. d-. d-. d-.)
@@ -64,12 +64,12 @@
   h16(-. h-. h-. h-. h-. h-. h-. h-.) c(-. c-. c-. c-. c-. c-. c-. c-.)
   c(-. c-. c-. c-. h-. h-. h-. h-.) as(-. as-. as-. as-. a-. a-. a-. a-.) %350
   h(-. h-. h-. h-. c-. c-. c-. c-.) c-.( c-. c-. c-. h-. h-. h-. h-.)
-  c(-. c-. c-. c-. c-. c-. c-. c-.) c(-.\fE c-. c-. c-. c-. c-. c-. c-.)
-  c(-.\ffE c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. h-. h-. a-. a-.)
+  c(-. c-. c-. c-. c-. c-. c-. c-.) c(-.\f c-. c-. c-. c-. c-. c-. c-.)
+  c(-.\ff c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. h-. h-. a-. a-.)
   h4 r8 g g2~
   g1~ %355
   g~
   g2 r
-  \mvTrh fis4.\ff-\tenuto fis8 g4 r
+  fis4.-\fftenuto fis8 g4 r
   R1\fermata \bar "|." %359 FINIS
 }

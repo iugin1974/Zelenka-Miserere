@@ -1,6 +1,6 @@
 \relative {
   R2.*32 %188
-  \mvTr h'4.\pE^\soloE h8 e4
+  h'4.\pE^\solo h8 e4
   dis8.([ e16)] e2 %190
   a,8([ g')] \appoggiatura g fis4. e8
   dis8. cis16 h4 r
@@ -27,7 +27,7 @@
   fis16[ g a g] fis8.[\trill e16 d8.\trill c16]
   h[ g' fis e] d8.[\trill c16 h8.\trill a16]
   g8[ a] a4.\trill g8
-  g4^\critnote r r %220
+  g4 r r %220
   R2.*8 %228
   d'4. d8 g4
   fis8([ g)] g4 r %230

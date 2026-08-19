@@ -1,5 +1,5 @@
 \relative {
-  \mvTrh es16(-.\ff-\markup \remark "sempre" es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
+  es'16(-.-\ffsempre es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
   es(-. es-. es-. es-. es-. es-. es-. es-.) f(-. c-. c-. c-. c-. c-. c-. c-.)
   d(-. d-. d-. d-. d-. d-. d-. d-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
   g(-. g-. g-. g-. g-. g-. g-. g-.) as(-. as-. as-. as-. as-. as-. as-. as-.)
@@ -33,6 +33,6 @@
   es(-. es-. es-. es-. es-. es-. es-. es-.) h(-. d-. d-. d-. d-. h-. h-. h-.)
   h(-. h-. h-. h-. h-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
   g(-. g-. g-. g-. g-. g-. g-. g-.) g(-.\pp g-. g-. g-. g-. g-. g-. g-.)
-  g(-. g-. g-. g-. g-. g-. g-. g-.) \mvTrh a4.\ff-\tenuto a8 %35
-  h4~ h~\p \mvTrr h2\pp-\tenuto\fermata \bar "|." %36 finis
+  g(-. g-. g-. g-. g-. g-. g-. g-.) a4.-\fftenuto a8 %35
+  h4~ h~\p h2-\pptenuto\fermata \bar "|." %36 finis
 }

@@ -1,5 +1,5 @@
 \relative {
-  \mvTr c2\f-\tenuto e
+  c2-\ftenuto e
   f d
   g h
   c a %40
@@ -8,16 +8,16 @@
   c4. c,8 f g a g16 f
   e8 e e f g2
   r4 g4. f8 e g %45
-  c4 c, \mvTr g2\fE-\tenutoE
+  c4 c, g2\f-\tenutoE
   h4. g'4 f8 e g
   c,8 d e fis g fis16 e d8 g
   a4 r8 fis4 g8 a fis
   h a g4. fis8 g e %50
-  \mvTr a2\f-\tenuto cis
+  a2-\ftenuto cis
   d h
   a8 e16 d cis8 e a,4 r8 a'~
   a8 g fis a d, e fis gis
-  a4 r \mvTr d,2\f-\tenuto %55
+  a4 r d,2-\ftenuto %55
   fis g
   e d4 h'
   e,4. e8 e4 r8 a~
@@ -26,12 +26,12 @@
   gis? e a2 gis8 e
   gis h16 a gis8 fis e4. d8
   cis d e4 fis2
-  r \mvTr e\fE-\tenuto
+  r e\f-\tenuto
   gis a %65
   fis e
   fis4 r8 fis4 g8 a fis
   h a g2 g4
-  a r \mvTr d,2\f-\tenuto
+  a r d,2-\ftenuto
   fis g %70
   e d4 d'~
   d8 h d2 c4~
@@ -47,7 +47,7 @@
   g a8 g f4 f8 c
   d f d e f d16 e f8 a
   r4 g8. f16 es8 g c,4
-  \mvTr h'2\f-\tenuto d %85
+  h'2-\ftenuto d %85
   es c
   h8 a g4. g8 g f
   es2 f
@@ -72,7 +72,7 @@
   a4 gis?8 fis gis a4 gis8
   a4 r8 e'4 d8 cis e
   fis g! a d,16 e fis8. e16 d4
-  d cis \mvTr d,2\f-\tenuto %110
+  d cis d,2-\ftenuto %110
   fis g
   e d
   e r4 a'~
@@ -81,12 +81,12 @@
   gis4 a4. a8 gis e16 fis
   gis8 h16 a gis8 fis e8 h e d
   cis d e16 cis d e fis4. fis8
-  h,4 r \mvTr e2\f-\tenuto
+  h,4 r e2-\ftenuto
   gis a %120
   fis d4. e8
   fis a fis4. g8 a fis
   h a g4. g8 g e
-  a4 r \mvTr d,2\f-\tenuto
+  a4 r d,2-\ftenuto
   fis g %125
   e2 d8 d' d, d'
   d,4 d'2 c4~
@@ -102,7 +102,7 @@
   g a f e8 e
   d4. e8 f2
   r8 g4 f8 es g c,8. c16
-  d4 \mvTr h'\f-\tenuto d2 %140
+  d4 h'-\ftenuto d2 %140
   es c
   h4 es2 d8. d16
   c8 d es16 c d es f8 f, r4
@@ -110,7 +110,7 @@
   c4 d es d8 c %145
   d8 d, d' e! f c d4~
   d4 c d4.\trill c8
-  h d g,8.(\trill f32 g) a8 f \mvTr c4\f-\tenuto
+  h d g,8.(\trill f32 g) a8 f c4-\ftenuto
   e4 f2 d4~
   d8 g, d' e f c f4~ %150
   f e4. f8 g e
@@ -118,5 +118,5 @@
   e8. f16 g8 e a4 g
   f4. f8 e4 f8 c~
   c d e c e c'4 h16 a %155
-  \tempoMiserereIIFinis g4. g8 g2\fermata \bar "|." %156 finis
+  IFinis g4. g8 g2\fermata \bar "|." %156 finis
 }

@@ -1,5 +1,5 @@
 \relative {
-  \mvTr c2\f-\tenuto e
+  c2-\ftenuto e
   f d
   g h
   c a %40
@@ -12,7 +12,7 @@
   h c d h e d c h
   c4. c8 h2
   R1*2 %50
-  \mvTr a2\f-\tenuto cis
+  a2-\ftenuto cis
   d h
   a1
   R
@@ -46,7 +46,7 @@
   c8 c, c'4 h8 a a4~
   a8 g16 f g8 h a f d4
   R1
-  \mvTr h'2\f-\tenuto d %85
+  h'2-\ftenuto d %85
   es c
   h4 es2 d4
   r8 c4 h8 as g as h16 as
@@ -67,7 +67,7 @@
   c c, c'2 h4
   a8 fis d4 r2
   R1 %105
-  \mvTr a'2\f-\tenuto cis
+  a'2-\ftenuto cis
   d h
   a8 e16 d cis8 e a,4 r
   R1
@@ -101,7 +101,7 @@
   c c, c'4 h8 a a4~
   a g8 h a d, d'8. c16
   h8 es, h2 r4
-  \mvTr h'2\f-\tenuto d %140
+  h'2-\ftenuto d %140
   es c
   h4 es2 d4
   r8 c4 h8 as h16 as as8. as16
@@ -117,5 +117,5 @@
   c g16 f e8 g c,4 r
   r4 r8 c'4 h8 a c
   g'4 g, c8 e f4~ %155
-  \tempoMiserereIIFinis f e8 d e2\fermata \bar "|." %156 finis
+  IFinis f e8 d e2\fermata \bar "|." %156 finis
 }

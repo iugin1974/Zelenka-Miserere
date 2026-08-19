@@ -1,12 +1,12 @@
 \relative {
-  r2 \mvTrh g'16(-.\ff-\markup \remark "sempre" g-. g-. g-. g-. g-. g-. g-.)
+  r2 g'16(-.-\ffsempre g-. g-. g-. g-. g-. g-. g-.)
   g(-. g-. g-. g-. g-. g-. g-. g-.) f(-. f-. f-. f-. f-. f-. f-. f-.)
   f(-. f-. f-. f-. f-. f-. f-. f-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
   c(-. c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. c-. c-. c-. c-.)
   c(-. c-. c-. c-. h-. h-. h-. h-.) h(-. h-. h-. h-. h-. h-. h-. h-.) %5
   h(-. h-. h-. h-. a-. a-. a-. a-.) a(-. a-. a-. a-. a-. a-. a-. a-.)
-  a(-.-\critnote a-. a-. a-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. a-.)
-  es(-.-\critnote es-. es-. es-. es-. es-. es-. es-.) d(-. d-. d-. d-. d-. d-. d-. d-.)
+  a(-. a-. a-. a-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. a-.)
+  es(-. es-. es-. es-. es-. es-. es-. es-.) d(-. d-. d-. d-. d-. d-. d-. d-.)
   d(-. d-. d-. d-. a'-. a-. a-. a-.) a(-. a-. a-. a-. g-. g-. g-. g-.)
   g(-. g-. g-. g-. f!-. f-. f-. f-.) es!(-. es-. es-. es-. e-. e-. e-. e-.) %10
   fis(-. fis-. fis-. fis-. g-. g-. g-. g-.) g(-. g-. g-. g-. fis-. fis-. fis-. fis-.)
@@ -32,7 +32,7 @@
   c(-. c-. c-. c-. h-. h-. a-. a-.) h4 r8 g \slurSolid
   g1~
   g~
-  g2.-\critnote r4
-  r2 \mvTrh fis4.\ff-\tenuto fis8 %35
+  g2. r4
+  r2 fis4.-\fftenuto fis8 %35
   g4 r r2\fermata \bar "|." %36 finis
 }

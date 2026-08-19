@@ -1,5 +1,5 @@
 \relative {
-  \mvTr c4.\fE^\tuttiE^\tenuto c8 e4 e
+  c4.\f^\tutti^\tenuto c8 e4 e
   f4. f8 d2
   c8 c e e e([ f?)] g e
   a([ g)] f([ e)] f c16 c f4~ %40
@@ -17,7 +17,7 @@
   a4 gis8([ fis)] gis( a4 gis8)
   a4 e4.( d8) cis([ e)]
   fis4 d4. d8 d4~
-  d8 d cis4 \mvTr d4.\f^\tenutoE d8 %55
+  d8 d cis4 d4.\f^\tenutoE d8 %55
   fis4 fis g4. g8
   e2 d
   e a,4 r8 a'~
@@ -26,12 +26,12 @@
   gis e a2 gis8[ e16 fis]
   gis8[ h16 a] gis8[ fis] e4. d8
   cis[ d] e4 fis2
-  r \mvTr e4.\f^\tenutoE e8
+  r e4.\f^\tenutoE e8
   gis4 gis a a %65
   fis2( e)
   fis4 r8 fis4 g8 a([ fis)]
   h a g2 g4
-  r2 \mvTr d4.\fE^\tenutoE d8
+  r2 d4.\f^\tenutoE d8
   fis4 fis g4. g8 %70
   e2 d~
   d c~
@@ -72,7 +72,7 @@
   a4 gis8[ fis] gis a4 gis8
   a4 r8 e4( d8) cis[( e])
   fis([ g!)] a fis fis8. e16 d4
-  d cis r8 \mvTr d4\f^\tenuto d8 %110
+  d cis r8 d4\f^\tenuto d8 %110
   fis4 fis g4. g8
   e2( d)
   e r4 a~
@@ -81,12 +81,12 @@
   gis gis16 gis a4. a8 gis[ e16 fis]
   gis8[ h16 a] gis8[ fis] e4 e8 d
   cis([ d] e8.) e16 fis2
-  r \mvTr e4.\fE^\tenutoE e8
+  r e4.\f^\tenutoE e8
   gis4 gis a4. a8 %120
   fis2 e
   fis~ fis8[ g] a fis16 fis
   h8 a g4. g8 g([ e)]
-  a4 r \mvTr d,4.\f^\tenuto d8
+  a4 r d,4.\f^\tenuto d8
   fis4 fis g4. g8 %125
   e2 d~
   d c~
@@ -116,7 +116,7 @@
   f e4. f8 g e
   a4 f r2
   e8([ f)] g([ e)] a4 g
-  f f8 f e4^\critnote f8[ c]~
+  f f8 f e4 f8[ c]~
   c d e4. e8 f4~ %155
-  \tempoMiserereIIFinis f e8[( d]) e2\fermata \bar "|." %156 finis
+  IFinis f e8[( d]) e2\fermata \bar "|." %156 finis
 }

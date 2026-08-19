@@ -1,5 +1,5 @@
 \relative {
-  r2 \mvTr g'8.\f-\tenuto g16 g8. g16
+  r2 g'8.-\ftenuto g16 g8. g16
   g8. g16 g8. g16 f8. f16 f8. f16
   f8. as16 as8. f16 g8. g16 g8. g16
   c8. c16 c8. c16 c8. c16 c8. c16
@@ -33,6 +33,6 @@
   r es( d c) r f( es d)
   r f( es d) es2~
   es4 d8 c d d([\pp c h)]
-  r c( h a) \mvTrh c4.\ff-\tenuto c8 %35
-  d4~ d~\p \mvTrr d2\pp-\tenuto\fermata \bar "|." %36 finis
+  r c( h a) c4.-\fftenuto c8 %35
+  d4~ d~\p d2-\pptenuto\fermata \bar "|." %36 finis
 }

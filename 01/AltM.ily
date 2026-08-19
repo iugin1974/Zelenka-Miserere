@@ -1,8 +1,6 @@
 \relative {
-  \clef treble
-  \key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
   R1*11 %11
-  r2^\critnote \mvTr h'4.\f^\tuttiE h8
+  r2 h'4.\f^\tutti h8
   h2 a4 g
   a4. a8 g4 d
   h'2. as8[ g] %15

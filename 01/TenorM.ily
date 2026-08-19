@@ -1,6 +1,6 @@
 \relative {
   R1*11 %11
-  r2 \mvTr d4.\f^\tuttiE d8
+  r2 d'4.\f^\tutti d8
   d2 c~
   c8[ d] es4 d2~
   d8 h d4. d8 c4~ %15

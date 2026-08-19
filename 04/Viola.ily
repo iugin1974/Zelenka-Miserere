@@ -1,5 +1,5 @@
 \relative {
-  d2.\fE d4 d2
+  d2.\f d4 d2
   d1 d2 %290
   r4 g, h d g h
   d2 g,, r
@@ -23,7 +23,7 @@
   a,4. g8 f a e e'16 d
   c8 h a h c d e f %310
   d h d2 c8 h
-  a2 r4 \mvTr c\f-\tenuto
+  a2 r4 c-\ftenuto
   e f d c
   h r f'8 g a f
   g a h2 a4 %315
@@ -47,7 +47,7 @@
   f4. e16 f g8 f \once\tieDashed e4~
   e d2 g8 a \noBreak
   h a16 h c8 c, g'4. g8 \bar "|" %335
-  \key c \dorian \newSpacingSection \tempoMiserereIII
+  \key c \dorian \newSpacingSection II
   es16(-. es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.) \noBreak
   es(-. es-. es-. es-. es-. es-. es-. es-.) f(-. c-. c-. c-. c-. c-. c-. c-.)
   d(-. d-. d-. d-. d-. d-. d-. d-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
@@ -70,6 +70,6 @@
   h(-. d-. d-. d-. d-. h-. h-. h-.) h(-. h-. h-. h-. h-. g-. g-. g-.)
   g(-. g-. g-. g-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
   g(-.\pp g-. g-. g-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
-  \mvTrh a4.\ff-\tenutoE a8 h4~ h~\p
+  a4.-\fftenutoE a8 h4~ h~\p
   h2\pp\fermata r \bar "|."
 }

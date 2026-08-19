@@ -1,5 +1,5 @@
 \relative {
-  \mvTr g'2.\fE-\tutti g4 g2
+  g'2.\f-\tutti g4 g2
   f1 f2 %290
   R1.
   f2 f, f'
@@ -21,7 +21,7 @@
   e f
   d c
   \clef "treble_8" a'4. g8 f a e4
-  \clef bass f2-\critnote a %310
+  \clef bass f2 a %310
   h g
   f \clef "treble_8"  r4 c'
   e f d c
@@ -48,7 +48,7 @@
       c2. r8 c
     } \\ {
       s1
-      s2. s4-\tasto %330
+      s2. s4-\tastoSolo %330
       s1
       s
     }
@@ -56,7 +56,7 @@
   d2 e
   f g~ \noBreak
   g1 \bar "|" %335
-  \key c \dorian \newSpacingSection \tempoMiserereIII
+  \key c \dorian \newSpacingSection II
   c,8.-\solo c16 c8. c16 c8. c16 c8. c16 \noBreak
   c8. c16 c8. c16 c8. c16 c8. c16
   c8. c16 c8. c16 c8. c16 c8. c16
@@ -79,6 +79,6 @@
   g,4 r8 g' g,4 r8 g' %355
   g,4 r8 g' g,4 r8 g'
   g,4 r8 g'\ppE g,4 r8 g'
-  g,2~\ffE^\tenuto g4~-\tasto g~\p
+  g,2~\ff^\tenuto g4~-\tastoSolo g~\p
   g2\pp\fermata r \bar "|." %359 FINIS
 }

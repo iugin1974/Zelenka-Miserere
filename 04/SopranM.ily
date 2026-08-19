@@ -1,5 +1,5 @@
 \relative {
-  \mvTr d'2.\fE^\tutti c4 h( c)
+  d'2.\f^\tutti c4 h( c)
   d1 d2 %290
   R1.
   d2 d d
@@ -47,7 +47,7 @@
   c h c8[ e] g4~
   g f2 e4 \noBreak
   d c2 h4 \bar "|" %335
-  \key c \dorian \newSpacingSection \tempoMiserereIII c4 r r2 \noBreak
+  \key c \dorian \newSpacingSection II c4 r r2 \noBreak
   R1*6 %342
   es4. es8 es2
   fis4. fis8 g2

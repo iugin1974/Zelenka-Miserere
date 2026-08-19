@@ -1,5 +1,5 @@
 \relative {
-  e4\fE^\tenuto e8.( fis16) g4
+  e4\f^\tenuto e8.( fis16) g4
   fis \appoggiatura fis g2
   r4 a r
   fis8 fis4 fis fis8 %160
@@ -73,7 +73,7 @@
   h\f g fis8 a
   \tuplet 3/2 4 { h-! d-! h-! } g4 h,!8\p g
   d'4 h g %230
-  c fis, d-\critnote
+  c fis, d
   g8 a h a h g
   h'\mp h4 h h8
   \tuplet 3/2 4 { a-! e-! c-! } a4 r
@@ -91,7 +91,7 @@
   h'4 r h
   h r h
   h r h
-  dis, r dis-\critnote
+  dis, r dis
   h' r h %250
   cis? h h
   h\f e, e

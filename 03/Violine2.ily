@@ -1,5 +1,5 @@
 \relative {
-  \mvTr g'8.(\fE-\markup { \remark "tenuto sempre" } a16) h4 h %157
+  g'8.(\f-\markup { \remark "tenuto sempre" } a16) h4 h %157
   h h h
   e, c' cis
   h2 r4 %160

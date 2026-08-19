@@ -1,5 +1,5 @@
 \relative {
-  \mvTr c8.-!\fE-\soloE-\tasto c16-! c8.-! c16-! c8. c16 c8. c16
+  c8.-!\f-\solo-\tastoSolo c16-! c8.-! c16-! c8. c16 c8. c16
   c8. c16 c8. c16 c8. c16 c8. c16
   c8. c16 c8. c16 c8. c16 c8. c16
   c8. c16 c8. c16 f8. f16 f8. f16
@@ -28,11 +28,11 @@
   g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
   g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
   g'8. g,16 g'8. g,16 c'8. c,16 c'8. h16
-  as8. as,16 as'8. g16 \mvTr fis8.-\critnote\ff fis16 fis8. fis16 %30
+  as8. as,16 as'8. g16 fis8.\ff fis16 fis8. fis16 %30
   g8. g,16 g8. g16 g4 r8 g'
   g,4 r8 g' g,4 r8 g'
   g,4 r8 g' g,4 r8 g'
   g,4 r8 g' g,4 r8 g'\pp
   g,4 r8 g' g,2~\ff^\tenuto %35
-  g4~ g~\p-\tasto \mvTrr g2\pp-\tenuto\fermata \bar "|." %36 finis
+  g4~ g~\p-\tastoSolo g2-\pptenuto\fermata \bar "|." %36 finis
 }

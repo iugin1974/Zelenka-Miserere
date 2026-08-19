@@ -1,11 +1,11 @@
 \relative {
   R1*4 %40
-  r2 r4 \mvTr c~\fE^\tuttiE
+  r2 r4 c~\f^\tutti
   c8 h a c f,([ g)] a([ h)]
   c4. c8 f,4 a8 a
   e e e f16 f g4 g
   r g4. f16 f e8 g %45
-  c4 c, r8 \mvTr g'4\fE^\tenutoE g8
+  c4 c, r8 g'4\f^\tenutoE g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -17,7 +17,7 @@
   a4 e d g %55
   d' r e,8([ fis)] g e
   a([ h] c2) h4
-  r8 \mvTr cis4\f^\tenutoE cis8 e4 e
+  r8 cis4\f^\tenutoE cis8 e4 e
   fis fis d2~
   d4 cis r2 %60
   R1*2
@@ -33,7 +33,7 @@
   r g4.( fis?8) e([ g)]
   c, d e d16([ c)] d4( g)
   c, c'4.( d8) e([ c)]
-  f e16([ d)] c8 d^\critnote e4 e,8.[ f16] %75
+  f e16([ d)] c8 d e4 e,8.[ f16] %75
   g4 c c2
   R1
   r8 a4 g8 f([ a)] e4
@@ -59,7 +59,7 @@
   c4. c8 f,4 a
   e4. f8 g2
   r4 g4.( f8) e g %100
-  c4 c, r8 \mvTr g'4\fE^\tenutoE g8
+  c4 c, r8 g'4\f^\tenutoE g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -71,7 +71,7 @@
   a8. a16 e4 d( g) %110
   d r e8([ fis)] g e16 e
   a8 h c2 h4
-  r8 \mvTr cis4\fE^\tenutoE cis8 e4 e
+  r8 cis4\f^\tenutoE cis8 e4 e
   fis fis d2~
   d4 cis r2 %115
   R1*2
@@ -87,24 +87,24 @@
   r g4.( f8) e g
   c, d e[( d16 c] d4 g)
   c, c'4.( d8) e c
-  f e16([ d)] c8 d^\critnote e4 e,8 e %130
+  f e16([ d)] c8 d e4 e,8 e %130
   g4 g8 g c2(
-  f,) g4^\critnote r
+  f,) g4 r
   r8 a4 g8 f a e e
   a a a h? c d e f
   d4 d d c8([ h)] %135
-  c4^\critnote r r c8. c16
+  c4 r r c8. c16
   e8 e f8. f16 d4( c)
   h r f8 g a f16 f
   g8([ a] h2 a4)
-  h2 g8.^\critnote a16 h8 g %140
+  h2 g8. a16 h8 g %140
   c4. d8 es([ c] f4)
   h, g8 a h( c4 h!8)
   c4 es4. es8 d4~
   d8 d c4. h16[ a!] h4
   a g4. g8 f f %145
-  h4. h8 c4^\critnote r
-  r f,8 es d d^\critnote f4~
+  h4. h8 c4 r
+  r f,8 es d d f4~
   f8 f e4 f2
   r4 f8 f a a h h
   g2 f8 g a h %150
@@ -113,5 +113,5 @@
   g8([ f)] e g4 f e16([ g)]
   a4. a8 g4 f
   e c'8([ h16 a]) g8 c a g16([ f)] %155
-  \tempoMiserereIIFinis g8 c, g'8. g16 g2\fermata \bar "|." %156 finis
+  IFinis g8 c, g'8. g16 g2\fermata \bar "|." %156 finis
 }

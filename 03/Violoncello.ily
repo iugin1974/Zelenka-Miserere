@@ -1,5 +1,5 @@
 \relative {
-  \mvTr e4\fE-\ripE^\critnote g e
+  e4\f-\ripE g e
   h' g e
   c' a ais
   h8 cis dis cis dis h %160
@@ -31,14 +31,14 @@
   c4\p a h
   g\f a h
   e,2 r4
-  \mvTr e,\pE-\orgE g' e
+  e,\pE-\orgE g' e
   h' g e %190
   c' a ais
-  \mvTr h8\fE-\rip cis dis cis dis h
+  h8\f-\rip cis dis cis dis h
   e4 r e,
   dis r d
   cis r c %195
-  h \mvTr h'\p-\orgE a
+  h h'\p-\orgE a
   gis e gis
   a, a'4. g8
   fis4 d fis
@@ -47,11 +47,11 @@
   h' r fis
   g fis e
   d c h8 c
-  \mvTr d\fE-\rip e fis e fis d %205
+  d\f-\rip e fis e fis d %205
   g4 r g
   fis r f
   e r es
-  << { \mvTr d8\pE_\org e fis d16 e fis8 d } \\ { d4 s2 } >>
+  << { d8\pE_\org e fis d16 e fis8 d } \\ { d4 s2 } >>
   g4 g, g'8 a %210
   h g16 a h8 a h g
   c4 c, r8 c'
@@ -62,8 +62,8 @@
   d r fis
   g r d
   e c d
-  \mvTr g\f-\rip c d %220
-  es \mvTr fis,!2\f-\tenuto
+  g\f-\rip c d %220
+  es fis,!2-\ftenuto
   g4 c, d
   g g g
   g fis r8 d
@@ -71,7 +71,7 @@
   r8 es r c r d
   es4\p c d
   h!\f c d
-  g, \mvTr h\p-\org g
+  g, h\p-\org g
   d' h g %230
   c fis, d
   g8 a h a h a
@@ -79,13 +79,13 @@
   a8 h c h c h
   ais4 ais ais %235
   h8 cis dis cis dis h
-  \mvTr e,\f-\ripE d'4 d c16 h
+  e,\f-\ripE d'4 d c16 h
   a4 gis e
-  a r \mvTr gis\p-\orgE
+  a r gis\p-\orgE
   a8 h c h a g %240
-  \mvTr fis8\f-\ripE e'4 e d16 cis?
+  fis8\f-\ripE e'4 e d16 cis?
   h4 ais fis
-  h r \mvTr ais\pE-\orgE
+  h r ais\pE-\orgE
   h8 fis4 d h8
   a' fis4 dis h8 %245
   g'4 r g
@@ -94,9 +94,9 @@
   fis r fis
   g dis e %250
   a h h,
-  \mvTr e'4\fE-\ripE c gis
+  e'4\f-\ripE c gis
   a g c
-  h r \mvTr e\p-\orgE
+  h r e\p-\orgE
   a, r a %255
   g r g
   fis r fis
@@ -107,7 +107,7 @@
   h h h
   c h ais
   h2.\fermata-\adlibitum
-  \mvTr e8\ffE-\ripE d'4 d c16 h %265
+  e8\ff-\ripE d'4 d c16 h %265
   a4 gis e
   a r gis\p
   a8 h c h c a

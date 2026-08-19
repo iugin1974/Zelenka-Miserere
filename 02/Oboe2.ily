@@ -1,6 +1,6 @@
 \relative {
   R1*2 %38
-  \mvTr g'2\f-\tenuto h
+  g'2-\ftenuto h
   c a %40
   g r8 c4 h8
   a4 c h a~
@@ -11,14 +11,14 @@
   h c d h e d c h
   c2 h
   R1*2 %50
-  \mvTr a2\f-\tenuto cis
+  a2-\ftenuto cis
   d h
   a1
   R
   r8 a4 g8 fis a h a16 g %55
   a8 d, d' c h4 r8 \once\tieDashed c!~
   c h a c gis a4 gis8
-  a2.^\critnote r4
+  a2. r4
   fis8 g a fis gis a4 gis8
   a4 e8-! fis-! g a h4~ %60
   h c! h2~
@@ -45,7 +45,7 @@
   c4 c h8 a a4~
   a8 a g h a2
   R1
-  \mvTr h2\f-\tenuto d %85
+  h2-\ftenuto d %85
   es c
   h4 es2 d4
   r8 c4 h8 as g as h16 as
@@ -66,7 +66,7 @@
   c c, c'2 h4
   a8 fis d4 r2
   R1 %105
-  \mvTr a'2\f-\tenuto cis
+  a'2-\ftenuto cis
   d h
   a8 r r4 r2
   R1
@@ -100,7 +100,7 @@
   c c, c'4 h8 a a4~
   a g8 h a d, d'8. c16
   h8 r r4 r2
-  \mvTr h2\f-\tenuto d %140
+  h2-\ftenuto d %140
   es c
   h4 es2 d4
   r8 c4 h8 as h16 as as8. as16
@@ -116,5 +116,5 @@
   c g16 f e8 g c,4 r
   r4 r8 c'4 h8 a c
   g'4 g, c8 e f4~ %155
-  \tempoMiserereIIFinis f e8 d e2\fermata \bar "|." %156 finis
+  IFinis f e8 d e2\fermata \bar "|." %156 finis
 }
