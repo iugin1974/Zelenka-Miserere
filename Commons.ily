@@ -252,6 +252,10 @@ pianoLayout = \layout {
     \Staff
     \consists "Merge_rests_engraver"
   }
+   \context {
+    \Voice
+    \omit TextScript
+  }
   \context {
     \PianoStaff
     \omit Dynamics.DynamicText
