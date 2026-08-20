@@ -276,7 +276,7 @@
           \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<
-            \clef "treble" \include #(string-append prefix "Global.ily")
+            \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
         >>

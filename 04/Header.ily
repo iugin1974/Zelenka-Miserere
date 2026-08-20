@@ -1,6 +1,6 @@
 \header {
 	piece = "04. Gloria Patri"
 	instrument = "Chor"
-	meter = "Dauer?"
+	meter = "03:20"
 }
 
