@@ -1,5 +1,5 @@
 \relative {
-  d2.\f d4 d2
+  d'2.\f d4 d2
   d1 d2 %290
   r4 g, h d g h
   d2 g,, r
@@ -13,9 +13,9 @@
   h2 d, d %300
   e2. e4 e2
   e e e
-  \tempoGloriaPatriI \once\tieDashed d1.~ \noBreak
+   \once\tieDashed d1.~ \noBreak
   d\fermata \bar "||"
-  \time 4/4 \tempoSicutErat \newSpacingSection
+  \time 4/4
   r4 c4. d8 e c \noBreak %305
   f e16 d c8 d e4. f8
   g4. a16 h c8 h a g
@@ -46,8 +46,8 @@
   f e8 f g2
   f4. e16 f g8 f \once\tieDashed e4~
   e d2 g8 a \noBreak
-  h a16 h c8 c, g'4. g8 \bar "|" %335
-  \key c \dorian \newSpacingSection II
+  h a16 h c8 c, g'4. g8 
+  %%
   es16(-. es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.) \noBreak
   es(-. es-. es-. es-. es-. es-. es-. es-.) f(-. c-. c-. c-. c-. c-. c-. c-.)
   d(-. d-. d-. d-. d-. d-. d-. d-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
@@ -70,6 +70,6 @@
   h(-. d-. d-. d-. d-. h-. h-. h-.) h(-. h-. h-. h-. h-. g-. g-. g-.)
   g(-. g-. g-. g-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
   g(-.\pp g-. g-. g-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
-  a4.-\fftenutoE a8 h4~ h~\p
+  a4.-\fftenuto a8 h4~ h~\p
   h2\pp\fermata r \bar "|."
 }

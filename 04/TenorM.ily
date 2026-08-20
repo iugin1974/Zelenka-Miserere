@@ -13,9 +13,9 @@
   r d d %300
   e2. e4 e2
   e1.
-  \tempoGloriaPatriI d~ \noBreak
+   d~ \noBreak
   d\fermata \bar "||"
-  \time 4/4 \tempoSicutErat \newSpacingSection
+  \time 4/4
   r4 c4. d8 e c \noBreak %305
   f e16([ d)] c8 d e4. e,8
   g4. g8 c([ h a g]
@@ -46,8 +46,9 @@
   e8 c c'[ d] e4. d16[ e]
   f4. e16[ f] g8[ f] e4~
   e d8[ c] h4 c \noBreak
-  f e d2 \bar "|" %335
-  \key c \dorian \newSpacingSection II es!4 r r2 \noBreak
+  f e d2
+  %%
+  es!4 r r2 \noBreak
   R1*5 %341
   r2 d4. d8
   d2 c~

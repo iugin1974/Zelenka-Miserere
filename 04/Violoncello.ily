@@ -1,5 +1,5 @@
 \relative {
-  g'2.\f-\tutti g4 g2
+  g2.\f-\tutti g4 g2
   f1 f2 %290
   R1.
   f2 f, f'
@@ -13,11 +13,11 @@
   r g fis %300
   e2. e4 d2
   cis1.
-  \tempoGloriaPatriI d~ \noBreak
+   d~ \noBreak
   d\fermata \bar "||"
-  \clef "treble_8" \time 4/4 \tempoSicutErat \newSpacingSection
+  \clef "treble_8" \time 4/4
   r4 c'4. d8 e c \noBreak %305
-  f e16 d c8 d \clef bass c,2-\markup { \remark "sempre tenuto" }
+  f e16 d c8 d \clef bass c,2-\sempreTenuto
   e f
   d c
   \clef "treble_8" a'4. g8 f a e4
@@ -55,8 +55,8 @@
   >>
   d2 e
   f g~ \noBreak
-  g1 \bar "|" %335
-  \key c \dorian \newSpacingSection II
+  g1 %335
+  %%
   c,8.-\solo c16 c8. c16 c8. c16 c8. c16 \noBreak
   c8. c16 c8. c16 c8. c16 c8. c16
   c8. c16 c8. c16 c8. c16 c8. c16
@@ -78,7 +78,7 @@
   g4 r8 g'-\solo g,4 r8 g'
   g,4 r8 g' g,4 r8 g' %355
   g,4 r8 g' g,4 r8 g'
-  g,4 r8 g'\ppE g,4 r8 g'
+  g,4 r8 g'\pp g,4 r8 g'
   g,2~\ff^\tenuto g4~-\tastoSolo g~\p
   g2\pp\fermata r \bar "|." %359 FINIS
 }

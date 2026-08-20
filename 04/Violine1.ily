@@ -1,5 +1,5 @@
 \relative {
-  \mvDll <g d' h' g'>2-!\f r r
+   <g d' h' g'>2-!\f r r
   q-! r r %290
   r4 g-! h-! d g h
   d2 g,, r
@@ -13,9 +13,9 @@
   <g' h, d, g,>2 h, h %300
   h4-! g'-! h,-! g'-! h,-! g'-!
   h, g' h, g' h, g'
-  \tempoGloriaPatriI h,2 a g \noBreak
+   h,2 a g \noBreak
   a1.\fermata \bar "||"
-  \time 4/4 \tempoSicutErat \newSpacingSection
+  \time 4/4  
   r2 e'8. d16 c8 e \noBreak %305
   a, h c4. h16 a g4
   c, g'4. g8 f g
@@ -46,8 +46,8 @@
   g4. f8 e c c'4~
   c h c8 e g4~
   g f2 e4 \noBreak
-  d c2 h8.\trill h16 \bar "|" %335
-  \key c \dorian \newSpacingSection II
+  d c2 h8.\trill h16 
+  %%
   c4 r r2 \noBreak
   as8.-\tenuto as16 as8. as16 as8. as16 as8. as16
   h8. h16 h8. h16 c8. c16 c8. d16

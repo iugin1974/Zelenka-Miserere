@@ -1,5 +1,5 @@
 \header {
-	piece = "01. Miserere"
+	piece = "04. Gloria Patri"
 	instrument = "Chor"
 	meter = "Dauer?"
 }

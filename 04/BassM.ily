@@ -1,5 +1,5 @@
 \relative {
-  g'2.\f^\tutti g4 g2
+  g2.\f^\tutti g4 g2
   f1 f2 %290
   R1.
   f2 f f
@@ -13,9 +13,9 @@
   r g fis %300
   e2. e4 d2
   cis1.
-  \tempoGloriaPatriI d~ \noBreak
+   d~ \noBreak
   d\fermata \bar "||"
-  \time 4/4 \tempoSicutErat \newSpacingSection R1 \noBreak %305
+  \time 4/4   R1 \noBreak %305
   r2 c4.^\tenuto c8
   e4 e f4. f8
   d2 c
@@ -44,8 +44,9 @@
   c'4. c8 c,2
   d e
   f g~ \noBreak
-  g1 \bar "|" %335
-  \key c \dorian \newSpacingSection II c,4 r r2 \noBreak
+  g1
+  %%
+  c,4 r r2 \noBreak
   R1*5 %341
   g'4. g8 g2
   g, g'4. g8

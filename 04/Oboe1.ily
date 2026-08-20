@@ -1,5 +1,5 @@
 \relative {
-  d'2.\f c4 h c
+  d''2.\f c4 h c
   d1 d2 %290
   R1.
   d2 d d
@@ -13,9 +13,9 @@
   h2. a4 h2 %300
   h1.~
   h~
-  \tempoGloriaPatriI h2 a g \noBreak
+   h2 a g \noBreak
   a1.\fermata \bar "||"
-  \time 4/4 \tempoSicutErat \newSpacingSection
+  \time 4/4
   r2 e'8. d16 c8 e \noBreak %305
   a, h c4. h16 a g4
   c, g'4. g8 f g
@@ -46,8 +46,8 @@
   g4. f8 e c c'4~
   c h c8 e g4~
   g8 f16 e f2 e4 \noBreak
-  d c2 h8.\trill h16 \bar "|" %335
-  \key c \dorian \newSpacingSection II
+  d c2 h8.\trill h16 
+  %%
   c4 r g16(-. g-. g-. g-. g-. g-. g-. g-.) \noBreak
   as(-. as-. as-. as-. as-. as-. as-. as-.) as(-. as-. as-. as-. as-. as-. as-. as-.)
   h(-. h-. h-. h-. h-. h-. h-. h-.) c(-. c-. c-. c-. c-. c-. c-. d-.)
