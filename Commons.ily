@@ -147,7 +147,25 @@ tmpVoiceOne = #(define-music-function (m) (ly:music?)
 tastoSolo =
 #(define-scheme-function (parser location)()
    #{
-     \markup {\italic{Tasto solo}}
+     \markup {tasto solo}
+   #})
+
+sempre =
+#(define-scheme-function (parser location)()
+   #{
+     \markup {\italic{sempre}}
+   #})
+
+tenuto =
+#(define-scheme-function (parser location)()
+   #{
+     \markup {\italic{tenuto}}
+   #})
+
+sempreTenuto =
+#(define-scheme-function (parser location)()
+   #{
+     \markup {\italic{sempre tenuto}}
    #})
 
 tasto =
@@ -158,12 +176,12 @@ tasto =
 
 tutti = #(define-scheme-function (parser location)()
            #{
-             \markup {\italic{(Tutti)}}
+             \markup {\italic{Tutti}}
            #})
 
 solo = #(define-scheme-function (parser location)()
           #{
-            \markup {\italic{(Solo)}}
+            \markup {\italic{Solo}}
           #})
 
 % violoncello  / kontrabass
@@ -184,6 +202,20 @@ soloTenuto =
    #{
      \markup { \italic {solo tenuto}}
    #})
+
+org = \markup { \italic {org}}
+adlibitum = \markup { \italic {ad libitum}}
+ffsempre = \markup { \concat { \dynamic ff } \italic {sempre}}
+fftenuto = \markup { \concat { \dynamic ff } \italic {tenuto}}
+fsempre = \markup { \concat { \dynamic f } \italic {sempre}}
+ftenuto = \markup { \concat { \dynamic f } \italic {tenuto}}
+ftenutosempre = \markup { \concat { \dynamic f } \italic {tenuto sempre}}
+ppsempre = \markup { \concat { \dynamic pp } \italic {sempre}}
+pptenuto = \markup { \concat { \dynamic pp } \italic {tenuto}}
+psempre = \markup { \concat { \dynamic p } \italic {sempre}}
+ptenuto = \markup { \concat { \dynamic p } \italic {tenuto}}
+frip = \markup { \concat { \dynamic f } \italic {rip}}
+ffrip = \markup { \concat { \dynamic ff } \italic {rip}}
 
 #(define-markup-command (tacet layout props text)
    (markup?)
@@ -225,3 +257,37 @@ pianoLayout = \layout {
     \omit Dynamics.DynamicText
   }
 }
+
+#(define (ly:half-bass-figure-bracket which-side) (lambda (grob)
+  (let* (
+    (dir-h (if (negative? which-side) -1 +1))
+    (layout (ly:grob-layout grob))
+    (line-thickness (ly:output-def-lookup layout 'line-thickness))
+    (thickness (ly:grob-property grob 'thickness 1))
+    (th (* line-thickness thickness))
+    (hth (/ th 2))
+    (tip-lo-h (car (ly:grob-property grob 'edge-height)))
+    (tip-hi-h (cdr (ly:grob-property grob 'edge-height)))
+    (bfb (ly:enclosing-bracket::print grob))
+    (bfb-x (ly:stencil-extent bfb X))
+    (bfb-y (ly:stencil-extent bfb Y))
+    (stem-v (interval-widen bfb-y (- hth)))
+    (stems-h (interval-widen bfb-x (- hth)))
+    (single-bracket (lambda (grob)
+      (grob-interpret-markup grob (markup
+        #:translate (cons ((if (negative? dir-h) car cdr) stems-h) (cdr stem-v))
+        #:scale (cons (- dir-h) -1)
+        #:combine #:draw-line (cons tip-hi-h 0) #:combine
+        #:draw-line (cons 0 (interval-length stem-v))
+        #:translate (cons 0 (interval-length stem-v))
+        #:draw-line (cons tip-lo-h 0))))))
+    (single-bracket grob))))
+t = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-line #'(1 . 0) }
+l = \markup { \hspace #-0.9 \transparent \figured-bass 0 }
+tllur = \markup { \combine \transparent \figured-bass 0 \raise #.1 \draw-line #'(1 . 1) }
+fivehat = \markup { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2)
+(rlineto .5 .5) (rlineto .5 -.5)) }
+fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) \raise #.3 \fontsize #-5 \flat } }
+fivehatnatural = \markup { \concat { \raise #.3 \fontsize #-5 \natural \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) } }
+bo = \once \override BassFigureBracket.stencil = #(ly:half-bass-figure-bracket LEFT)
+bc = \once \override BassFigureBracket.stencil = #(ly:half-bass-figure-bracket RIGHT)
