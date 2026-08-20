@@ -203,14 +203,19 @@ soloTenuto =
      \markup { \italic {solo tenuto}}
    #})
 
+org = \markup { \italic {org}}
+adlibitum = \markup { \italic {ad libitum}}
 ffsempre = \markup { \concat { \dynamic ff } \italic {sempre}}
 fftenuto = \markup { \concat { \dynamic ff } \italic {tenuto}}
 fsempre = \markup { \concat { \dynamic f } \italic {sempre}}
 ftenuto = \markup { \concat { \dynamic f } \italic {tenuto}}
+ftenutosempre = \markup { \concat { \dynamic f } \italic {tenuto sempre}}
 ppsempre = \markup { \concat { \dynamic pp } \italic {sempre}}
 pptenuto = \markup { \concat { \dynamic pp } \italic {tenuto}}
 psempre = \markup { \concat { \dynamic p } \italic {sempre}}
 ptenuto = \markup { \concat { \dynamic p } \italic {tenuto}}
+frip = \markup { \concat { \dynamic f } \italic {rip}}
+ffrip = \markup { \concat { \dynamic ff } \italic {rip}}
 
 #(define-markup-command (tacet layout props text)
    (markup?)

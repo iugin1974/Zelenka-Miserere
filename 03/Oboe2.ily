@@ -1,5 +1,5 @@
 \relative {
-  g'8.(\f-\markup { \remark "tenuto sempre" } a16) h4 h %157
+  g'8.(-\ftenutosempre a16) h4 h %157
   h h h
   e, c' cis
   h2 r4 %160
@@ -21,7 +21,7 @@
   \tuplet 3/2 4 { h'8-! fis-! dis-! } h r16 fis' h4
   r8 a fis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %180
+  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %180
   g16( e8.) e4 dis
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8
@@ -68,7 +68,7 @@
   \tuplet 3/2 4 { h'8-! fis-! dis-! } h r16 fis' h4
   r8 a fis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %280
+  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %280
   g16( e8.) e4 dis
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8

@@ -1,5 +1,5 @@
 \relative {
-  e4\f^\tenuto e8.( fis16) g4
+  e'4-\ftenuto e8.( fis16) g4
   fis \appoggiatura fis g2
   r4 a r
   fis8 fis4 fis fis8 %160
@@ -13,7 +13,7 @@
   e,8.\f d16 c8 h c a
   fis'4 fis fis
   fis8 h cis4 ais %170
-  \appoggiatura ais8 h4 r cis\pE
+  \appoggiatura ais8 h4 r cis\p
   fis,8\f fis4 fis fis8
   h h4 h h8
   dis,4 r h'
@@ -63,7 +63,7 @@
   r r d
   h e d
   h'?16(\f a8.) g16( f?8.) es?16( d8.) %220
-  g4 a2\f^\tenuto
+  g4 a2-\ftenuto
   d,4 es d
   \slurDashed d16( g8.) h?16( a8.) \slurSolid g16( f?8.)
   e4 a fis
@@ -79,14 +79,14 @@
   \tuplet 3/2 4 { a-! e-! c-! } a4 r
   cis'8 cis4 cis cis8 %235
   \tuplet 3/2 4 { h-! fis-! dis-! } h4 r
-  h'2\f^\tenuto r4
+  h'2-\ftenuto r4
   c,8 a' h4 gis
   a r h\p
   a8 h c h a g! %240
-  cis2\f^\tenuto r4
+  cis2-\ftenuto r4
   fis,8 h cis4 ais
   fis r cis'
-  h8 fis4 d h8\pE
+  h8 fis4 d h8\p
   a' fis4 dis h8 %245
   h'4 r h
   h r h
@@ -113,7 +113,7 @@
   e,8.\ff d16 c8 h c a
   fis'4 fis fis
   fis8 h cis4 ais %270
-  \appoggiatura ais8 h4 r cis\pE
+  \appoggiatura ais8 h4 r cis\p
   fis,8\f fis4 fis fis8
   h h4 h h8
   dis,4 r h'

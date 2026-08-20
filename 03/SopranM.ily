@@ -1,6 +1,6 @@
 \relative {
   R2.*32 %188
-  h'4.\pE^\solo h8 e4
+  h'4.\p^\solo h8 e4
   dis8.([ e16)] e2 %190
   a,8([ g')] \appoggiatura g fis4. e8
   dis8. cis16 h4 r

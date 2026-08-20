@@ -1,8 +1,8 @@
 {
-  \key c \dorian
-  \time 4/4
+  \key e \minor
+  \time 3/4
   \accidentalStyle modern
-  \tempo "Adagio"
-  s1*36
-  \bar "||"
+  \tempo "Larghetto ma non troppo"
+  s2.*132
+  \bar "|."
 }

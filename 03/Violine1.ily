@@ -1,5 +1,5 @@
 \relative {
-  h'4.\f-\markup { \remark "tenuto sempre" } h8 e4
+  h'4.-\ftenutosempre h8 e4
   dis \appoggiatura dis8 e2
   a,8.-\tenuto g'16 \appoggiatura g8 fis4. e8
   \appoggiatura e dis8.\trill cis16 \appoggiatura cis8 h4 r %160
@@ -22,7 +22,7 @@
   \tuplet 3/2 4 { h8-! fis-! dis-! } h r16 dis \appoggiatura dis8 e4
   r8 cis dis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %180
+  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %180
   g16( e8.) fis4.\trill e8
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8
@@ -42,11 +42,11 @@
   R2.
   \tuplet 3/2 4 { a'8-!\p e-! c-! } a4\trill r
   R2.
-  \tuplet 3/2 4 { g'8-!\p d-! h-! } g4\trill f'\f^\tenuto %200
-  \tuplet 3/2 4 { e8-!\p c-! a-! } e4-! g'\f^\tenuto
+  \tuplet 3/2 4 { g'8-!\p d-! h-! } g4\trill f'-\ftenuto %200
+  \tuplet 3/2 4 { e8-!\p c-! a-! } e4-! g'-\ftenuto
   fis8 h a16( h) g( h) a8( fis)
-  d( h) a'4\f^\tenuto r8 g\p
-  fis fis, e'4\f^\tenuto d8(\p e16 c)
+  d( h) a'4-\ftenuto r8 g\p
+  fis fis, e'4-\ftenuto d8(\p e16 c)
   \appoggiatura h8 a4 r r %205
   h8\f h4 h\trill es16( h)
   a8 a4 a\trill d16( a)
@@ -79,11 +79,11 @@
   e e'4 e e8~
   \tuplet 3/2 4 { e cis-! ais-! fis-! ais-! cis-! fis-! cis-! ais-! } %235
   fis4\trill r r
-  gis'2\f^\tenuto r4
+  gis'2-\ftenuto r4
   a8 \appoggiatura g f4 e d8
   \appoggiatura d c8.( h16) a8 f'\p \appoggiatura f e8.( d16)
   \appoggiatura d8 c8.\trill h16 a4 r %240
-  ais'2\f^\tenuto r4
+  ais'2-\ftenuto r4
   h8 g4 fis e8
   \appoggiatura e d8.( cis16) h8 g'\p \appoggiatura g fis8.( e16)
   \appoggiatura e8 d8.( cis16) h4 fis'\p
@@ -92,7 +92,7 @@
   \tuplet 3/2 4 { fis'8-!\f dis-! h-! } fis4 r
   \tuplet 3/2 4 { g'8-!\f e-! h-! } g4 r
   \tuplet 3/2 4 { a'8-!\f fis-! dis?-! } a4 r
-  e'16(\pE h) h( e) fis( h,) h( fis') g( h,) h( g') %250
+  e'16(\p h) h( e) fis( h,) h( fis') g( h,) h( g') %250
   r8 a-! r g-! fis8.(\trill e32 fis)
   g16(\f e) e( g) a( e) e( a) h( e,) e( h')
   r8 c-! r h-! a8.(\trill g32 a)
@@ -122,7 +122,7 @@
   \tuplet 3/2 4 { h8-! fis-! dis-! } h r16 dis \appoggiatura dis8 e4
   r8 cis dis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %280
+  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %280
   g16( e8.) fis4.\trill e8
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8

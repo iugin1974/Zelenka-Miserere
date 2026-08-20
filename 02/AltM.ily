@@ -72,7 +72,7 @@
   a4 gis8[ fis] gis a4 gis8
   a4 r8 e4( d8) cis[( e])
   fis([ g!)] a fis fis8. e16 d4
-  d cis r8 d4\f^\tenuto d8 %110
+  d cis r8 d4-\ftenuto d8 %110
   fis4 fis g4. g8
   e2( d)
   e r4 a~
@@ -86,7 +86,7 @@
   fis2 e
   fis~ fis8[ g] a fis16 fis
   h8 a g4. g8 g([ e)]
-  a4 r d,4.\f^\tenuto d8
+  a4 r d,4.-\ftenuto d8
   fis4 fis g4. g8 %125
   e2 d~
   d c~

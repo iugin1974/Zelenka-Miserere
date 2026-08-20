@@ -11,7 +11,7 @@
   h[ c] d h e d c h
   c2 h
   R1*2 %50
-  a4.\f^\tenuto a8 cis4 cis
+  a4.-\ftenuto a8 cis4 cis
   d4. d8 h2
   a1
   R
@@ -66,7 +66,7 @@
   c2.( h4)
   a r r2
   R1 %105
-  a4.\f^\tenuto a8 cis4 cis
+  a4.-\ftenuto a8 cis4 cis
   d4. d8 h2
   a1
   R
@@ -100,7 +100,7 @@
   c4 c8 c h a a4~
   a g8([ h)] a4 d8. c16
   h2 r
-  r8 h4\f^\tenuto h8 d4 d %140
+  r8 h4-\ftenuto h8 d4 d %140
   es4. es8 c2
   h4 es2 d4
   r8 c4( h8) as h16 as as8. as16
