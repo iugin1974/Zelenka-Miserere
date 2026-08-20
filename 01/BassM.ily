@@ -3,13 +3,13 @@
   g4.\f^\tutti g8 g2
   g, g'4. g8
   g1~
-  g4 h c4. c8 %15
-  f,2( h)
+  g4 b c4. c8 %15
+  f,2( b)
   es, as~
   as4. as8 g4. as8
-  h4. h8 h2~
-  h h, %20
-  h'4 h h h
+  b4. b8 b2~
+  b b, %20
+  b'4 b b b
   h2( c)
   g as4. as8
   g2 f

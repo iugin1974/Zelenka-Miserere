@@ -15,54 +15,57 @@
   h, g' h, g' h, g'
    h,2 a g \noBreak
   a1.\fermata \bar "||"
-  \time 4/4  
+  \time 4/4  \newSpacingSection
   r2 e'8. d16 c8 e \noBreak %305
   a, h c4. h16 a g4
   c, g'4. g8 f g
-  a f h2 a8 g
-  a h c2 c4
+  a f b2 a8 g
+  a b c2 c4
   c4. c8 c2 %310
-  r8 d4 c8 h d g, g
+  r8 d4 c8 b d g, g
   a8 f16 g a8 h? c8. c16 c8 c
-  c c, c'4 h8 a a4~
-  a g8 h a d, d'8. c16
-  h8 f h,4 r2 %315
-  h'2-\ftenuto d
+  c c, c'4 b8 a a4~
+  a g8 b a d, d'8. c16
+  b8 f b,4 r2 %315
+  b'2-\ftenuto d
   es c
-  h4 es2 d4
-  r8 c4 h8 as c16 h as8. as16
-  g8 h es4 r f,8 g %320
-  a! f h a g f16 g a4~
+  b4 es2 d4
+  r8 c4 b8 as c16 b as8. as16
+  g8 b es4 r f,8 g %320
+  a! f b a g f16 g a4~
   a8 g16 f g4 a4. g16 f
   e8 a, a'4 r2
-  r2 r4 a8 h
+  r2 r4 a8 b
   c g a2 g8 f %325
-  h h, h' a16 g a4. a8
+  b b, b' a16 g a4. a8
   g c c,4 r c'~
-  c8 h a c f, g a h
+  c8 b a c f, g a h
   c g16 f e8 g c,4 r
-  r4 c'4. h8 a c %330
+  r4 c'4. b8 a c %330
   g'4 g, c4. h16 a
   g4. f8 e c c'4~
   c h c8 e g4~
   g f2 e4 \noBreak
   d c2 h8.\trill h16 
   %%
+  \set Staff.beamExceptions = #'()
+  \set Staff.baseMoment = #(ly:make-moment 1/2)
+  \set Staff.beatStructure = #'(1 1)
   c4 r r2 \noBreak
   as8.-\tenuto as16 as8. as16 as8. as16 as8. as16
   h8. h16 h8. h16 c8. c16 c8. d16
   es8. es16 es8. es16 es8. es16 es8. es16
   d8. d16 d8. d16 d8. d16 d8. d16 %340
   c8. c16 c8. c16 c8. c16 c8. c16
-  h2 d8. d16 d8. d16
+  b2 d8. d16 d8. d16
   es8. es16 es8. es16 es8. es16 es8. es16
   fis8. fis16 fis8. fis16 g8. g16 g8. d16
-  h'8. h,16 h8. h16 h8-! h'([ as g)] %345
+  b'8. b,16 b8. b16 b8-! b'([ as g)] %345
   as8. as,16 as8. as16 as8-! as'([ g fis)]
   g2. f8 e
   <f d d,>4\fermata r r2
   <f d d, g,>8. q16 q8. q16 <es! g, g,>8. <es g, g,>16 q8. q16
-  <d d, g,>8. q16 <e h! g g,>8. e16 f8-! c-! f4~ %350
+  <d d, g,>8. q16 <e b! g g,>8. e16 f8-! c-! f4~ %350
   f es d4.\trill d8
   c-! es([-. es-. es-.)] r es(-.\f es-. es-.)
   r es(-.\ff es-. es-.) r es( d c)
@@ -70,6 +73,6 @@
   r as( g f) r d'( c h) %355
   c c, c'2 h8 a
   h-! f([\pp es d)] r es( d c)
-  fis4.-\fftenuto fis8 g4~ g~\p
+  fis4.\ff-\tenuto fis8 g4~ g~\p
   g2\pp\fermata r \bar "|." %359 FINIS
 }

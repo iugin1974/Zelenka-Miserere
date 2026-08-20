@@ -1,11 +1,11 @@
 \relative {
   R1*4 %40
   r2 r4 c'~\f^\tutti
-  c8 h a c f,([ g)] a([ h)]
+  c8 b a c f,([ g)] a([ h)]
   c4. c8 f,4 a8 a
   e e e f16 f g4 g
   r g4. f16 f e8 g %45
-  c4 c, r8 g'4-\ftenuto g8
+  c4 c, r8 g'4\f^\tenuto g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -17,7 +17,7 @@
   a4 e d g %55
   d' r e,8([ fis)] g e
   a([ h] c2) h4
-  r8 cis4-\ftenuto cis8 e4 e
+  r8 cis4\f^\tenuto cis8 e4 e
   fis fis d2~
   d4 cis r2 %60
   R1*2
@@ -38,28 +38,28 @@
   R1
   r8 a4 g8 f([ a)] e4
   a8. a16 a8 h c8. d16 e8 f
-  d2. c8[( h]) %80
+  d2. c8[( b]) %80
   c2 r4 c8. c16
   e8 e f8. f16 d4( c)
-  h2 f8([ g)] a([ f)]
-  g[( a] h2 a4)
-  h2 g8([ a)] h g %85
+  b2 f8([ g)] a([ f)]
+  g[( a] b2 a4)
+  b2 g8([ a)] b g %85
   c4. d8 es c f8. f16
-  h,4 g8 a h( c4 h!8)
+  b,4 g8 a h( c4 h!8)
   c c es es es4 d~
-  d c4. h16[ a!] h4
+  d c4. b16[ a!] b4
   a g2 f4 %90
-  h2 f
+  b2 f
   r4 f8 e d g f4~
   f8 f e4 f2
-  r4 f8. f16 a8 a h8. h16
+  r4 f8. f16 a8 a b8. b16
   g2 f4 a8([ h)] %95
   c([ g)] c8. c16 g4 r8 c~
-  c h a c16 c f,8([ g)] a([ h)]
+  c b a c16 c f,8([ g)] a([ b)]
   c4. c8 f,4 a
   e4. f8 g2
   r4 g4.( f8) e g %100
-  c4 c, r8 g'4-\ftenuto g8
+  c4 c, r8 g'4\f^\tenuto g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -71,7 +71,7 @@
   a8. a16 e4 d( g) %110
   d r e8([ fis)] g e16 e
   a8 h c2 h4
-  r8 cis4-\ftenuto cis8 e4 e
+  r8 cis4\f^\tenuto cis8 e4 e
   fis fis d2~
   d4 cis r2 %115
   R1*2
@@ -91,27 +91,27 @@
   g4 g8 g c2(
   f,) g4 r
   r8 a4 g8 f a e e
-  a a a h? c d e f
-  d4 d d c8([ h)] %135
+  a a a b? c d e f
+  d4 d d c8([ b)] %135
   c4 r r c8. c16
   e8 e f8. f16 d4( c)
-  h r f8 g a f16 f
-  g8([ a] h2 a4)
-  h2 g8. a16 h8 g %140
+  b r f8 g a f16 f
+  g8([ a] b2 a4)
+  b2 g8. a16 b8 g %140
   c4. d8 es([ c] f4)
-  h, g8 a h( c4 h!8)
+  b, g8 a h( c4 h!8)
   c4 es4. es8 d4~
-  d8 d c4. h16[ a!] h4
+  d8 d c4. b16[ a!] b4
   a g4. g8 f f %145
-  h4. h8 c4 r
+  b4. b8 c4 r
   r f,8 es d d f4~
   f8 f e4 f2
-  r4 f8 f a a h h
-  g2 f8 g a h %150
-  c g c2 h8 h
+  r4 f8 f a a b b
+  g2 f8 g a b %150
+  c g c2 b8 b
   a2. f4
   g8([ f)] e g4 f e16([ g)]
   a4. a8 g4 f
-  e c'8([ h16 a]) g8 c a g16([ f)] %155
+  e c'8([ b16 a]) g8 c a g16([ f)] %155
    g8 c, g'8. g16 g2\fermata \bar "|." %156 finis
 }

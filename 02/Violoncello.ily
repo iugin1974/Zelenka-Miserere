@@ -56,21 +56,21 @@
   d c
   \clef "treble_8" r8 a'4 g8 f a e c
   \clef bass f2 a
-  h g %80
+  b g %80
   f \clef "treble_8" r4 c'
   e f d c
-  \clef bass h,2 d
+  \clef bass b,2 d
   es c
-  h \clef "treble_8" g'8 a h g %85
+  b \clef "treble_8" g'8 a b g %85
   c c, c' d es c f4
   \clef bass es,2 g
   as f
-  es4 \clef "treble_8" c'4. h16 a h4
+  es4 \clef "treble_8" c'4. b16 a b4
   a g2 f4 %90
-  h2 \clef bass f,
-  a h
+  b2 \clef bass f,
+  a b
   g f
-  \clef "treble_8" r4 f'-\tenuto a h
+  \clef "treble_8" r4 f'-\tenuto a b
   g2 f4 a8 h %95
   \clef bass c,2 e
   f d
@@ -111,26 +111,26 @@
   d c
   \clef "treble_8" r8 a'4 g8 f a e4
   \clef bass f2 a
-  h g %135
+  b g %135
   f4 \clef treble f'8 d e c \clef "treble_8" c4
   e f d c
-  \clef bass h,2 d
+  \clef bass b,2 d
   es c
-  h \clef "treble_8" g'8 a h g %140
+  b \clef "treble_8" g'8 a b g %140
   c4. d8 es c f4
   \clef bass es,2 g
   as f
-  es4 \clef "treble_8" c'4. h16 a h4
+  es4 \clef "treble_8" c'4. b16 a b4
   a g2 f4 %145
-  h2 \clef bass f,
-  a h
+  b2 \clef bass f,
+  a b
   g f
-  \clef "treble_8" r4 f' a h
-  g2 f8 g a h %150
+  \clef "treble_8" r4 f' a b
+  g2 f8 g a b %150
   \clef bass c,2 e
   f d
   c1~
-  \tieDashed c~-\tastoSolo
+  \tieDashed c~-\tasto
   c~ %155
    c\fermata \bar "|." %156 finis
 }

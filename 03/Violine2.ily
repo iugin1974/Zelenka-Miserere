@@ -22,7 +22,7 @@
   \tuplet 3/2 4 { h'8-! fis-! dis-! } h r16 fis' h4
   r8 a fis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %180
+  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %180
   g16( e8.) e4 dis
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8
@@ -42,15 +42,15 @@
   r r \tuplet 3/2 4 { e8-!\p h-! gis-! }
   e4\trill r r
   r r \tuplet 3/2 4 { d'8-!\p a-! fis-! }
-  d4\trill r d'-\ftenuto %200
-  c-!\p r e-\ftenuto
+  d4\trill r d'\f^\tenuto %200
+  c-!\p r e\f^\tenuto
   d4-!\p r r
   g,-!\p fis-! e-!
   d c h8 c
   d4 r r %205
   r8 d\f g16-! fis-! g-! fis-! g8 g,
   r d' d'16-! cis-! d-! cis-! d8 d,
-  \once\slurDashed g8.( fis16) g( as) a( h) h( c) cis( d)
+  \once\slurDashed g8.( fis16) g( as) a( b) h( c) cis( d)
   d8\p d4 d d8~
   d d4 d d8~ %210
   d d4 d d8
@@ -64,11 +64,11 @@
   g4 g fis
   g'16(\f f8.) es16( d8.) c16( h!8.) %220
   \appoggiatura h!8 \once\slurDashed c4.( d16 es) d8( c)
-  h16( g8.) g4 fis
-  g16( h'8.)^\tenuto g16( f8.) es16( d8.)
+  b16( g8.) g4 fis
+  g16( b'8.)^\tenuto g16( f8.) es16( d8.)
   cis8.( d32 e) \appoggiatura e8 d4.\trill c8
-  h-! g'-! es4-! d8. c16 %225
-  h8. g16 a4-! fis-!
+  b-! g'-! es4-! d8. c16 %225
+  b8. g16 a4-! fis-!
   g8-!\p g'-! es4-! d-!
   g,8\f d' e4 d8 fis
   \tuplet 3/2 4 { g-! d-! h-! } g4 r
@@ -79,11 +79,11 @@
   e e'4 e e8~
   \tuplet 3/2 4 { e cis-! ais-! fis-! ais-! cis-! fis-! cis-! ais-! } %235
   fis4\trill r r
-  e'2-\ftenuto r4
+  e'2\f^\tenuto r4
   a8 \appoggiatura g f4 e d8
   \appoggiatura d c8.( h16) a8 f'\p \appoggiatura f e8.( d16)
   \appoggiatura d8 c8.\trill h16 a4 r %240
-  fis'2-\ftenuto r4
+  fis'2\f^\tenuto r4
   h8 g4 fis e8
   \appoggiatura e d8.( cis16) h8 g'\p \appoggiatura g fis8.( e16)
   d8 fis,4 d h8\p
@@ -122,7 +122,7 @@
   \tuplet 3/2 4 { h'8-! fis-! dis-! } h r16 fis' h4
   r8 a fis4.\trill e8
   e16( d8.) c16( h8.) a16( gis8.)
-  \appoggiatura gis8 a4.(-\ftenuto h16 c) h8 a %280
+  \appoggiatura gis8 a4.(\f^\tenuto h16 c) h8 a %280
   g16( e8.) e4 dis
   e16( g'8.)^\tenuto e16( d8. c16 h8.)
   ais8.( h32 cis) \appoggiatura cis8 h4. a?8

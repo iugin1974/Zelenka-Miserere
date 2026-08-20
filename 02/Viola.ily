@@ -25,7 +25,7 @@
   d4 cis r2 %60
   R1*2
   r4 cis4. h8 a cis
-  gis16 e a'4 gis8 e2\f-\tenuto
+  gis16 e a'4 gis8 e2-\ftenuto
   gis a %65
   fis e
   a, r
@@ -41,24 +41,24 @@
   R1
   r8 a,4 g8 f a e e'
   a,8. a16 a8 h c8. d16 e8 f
-  d2. c8 h %80
-  c4 r r c\f-\tenuto
+  d2. c8 b %80
+  c4 r r c-\ftenuto
   e f d c8 c'
-  h4. a16 g f8. g16 a8 f
-  g a h2 a8 h16 c
-  d8 d, d' c h a g h %85
+  b4. a16 g f8. g16 a8 f
+  g a b2 a8 b16 c
+  d8 d, d' c b a g b %85
   es, f g4. f16 g as8. as16
   g8 g,4 a8 h! c4 h8
   c d es2 d4~
-  d c4. h16 a! h4
+  d c4. b16 a! b4
   a g2 f4 %90
-  h2 f
+  b2 f
   r4 f'8 e d g f4~
   f8 f e4 f2
-  r4 f-\ftenuto a h
+  r4 f-\ftenuto a b
   g2 f8 f, a8 h! %95
   c g c8. c16 g4 r8 c~
-  c h a c f, g a h
+  c b a c f, g a b
   c4. c8 f,4 a
   e4. f8 g2
   r4 g'4. f8 e g %100
@@ -95,26 +95,26 @@
   f, r
   a4. g8 f a e e'16 d
   c8 h a h c d e f
-  d h d2 c8 h %135
+  d b d2 c8 b %135
   a2 r4 c-\ftenuto
   e f d c
-  h r f'8 g a f
-  g a h2 a4
-  h r g,8. a16 h8 g %140
+  b r f'8 g a f
+  g a b2 a4
+  b r g,8. a16 b8 g %140
   c4. d8 es c f4
-  h,8 g g' a h c4 h8
+  b,8 g g' a h c4 h8
   c c, es2 d4~
-  d c4. h16 a h4
+  d c4. b16 a b4
   a g2 f4 %145
-  h4. h8 f2
+  b4. b8 f2
   r4 f'8 es d g f4~
   f8 f e4 f2
-  r4 f,\f-\tenuto a h
+  r4 f,-\ftenuto a b
   g2 f8 f a h! %150
-  c g c2 h4
+  c g c2 b4
   a r8 a'4 g8 f e16 f
   g4. g8 f4. e16 g
   a8 a, a'4 g f
-  e8 d c h16 a g8 g' a g16 f %155
+  e8 d c b16 a g8 g' a g16 f %155
    g8 c, c c c2\fermata \bar "|." %156 finis
 }

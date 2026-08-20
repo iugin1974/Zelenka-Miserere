@@ -1,14 +1,14 @@
 \relative {
   R1*11 %11
-  r2 h'4.\f^\tutti h8
-  h2 a4 g
+  r2 b'4.\f^\tutti b8
+  b2 a4 g
   a4. a8 g4 d
-  h'2. as8[ g] %15
+  b'2. as8[ g] %15
   as2. g8[ fis]
   g2. f8[ es]
   f2 g4. g8
-  f2 h,
-  h' as %20
+  f2 b,
+  b' as %20
   g f~
   f es4. f8
   g2. fis4

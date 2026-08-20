@@ -4,7 +4,7 @@
   g h
   c a %40
   g2 r4 c~
-  c8 h a c f, g a h
+  c8 b a c f, g a h
   c4. c,8 f g a g16 f
   e8 e e f g2
   r4 g4. f8 e g %45
@@ -26,7 +26,7 @@
   gis? e a2 gis8 e
   gis h16 a gis8 fis e4. d8
   cis d e4 fis2
-  r e\f-\tenuto
+  r e-\ftenuto
   gis a %65
   fis e
   fis4 r8 fis4 g8 a fis
@@ -47,15 +47,15 @@
   g a8 g f4 f8 c
   d f d e f d16 e f8 a
   r4 g8. f16 es8 g c,4
-  h'2-\ftenuto d %85
+  b'2-\ftenuto d %85
   es c
-  h8 a g4. g8 g f
+  b8 a g4. g8 g f
   es2 f
   g8 f es g d4.\trill d8
   c4 d es d8 c %90
-  d8 h d e! f c d4~
+  d8 b d e! f c d4~
   d c d4. c8
-  h d g,4 a c8. d16
+  b d g,4 a c8. d16
   e8 e f4. e16 f d4~
   d8 c d e f c f4~ %95
   f8 f e f g f e g
@@ -102,15 +102,15 @@
   g a f e8 e
   d4. e8 f2
   r8 g4 f8 es g c,8. c16
-  d4 h'-\ftenuto d2 %140
+  d4 b'-\ftenuto d2 %140
   es c
-  h4 es2 d8. d16
+  b4 es2 d8. d16
   c8 d es16 c d es f8 f, r4
   g'8 f es g d4.\trill d8
   c4 d es d8 c %145
   d8 d, d' e! f c d4~
   d4 c d4.\trill c8
-  h d g,8.(\trill f32 g) a8 f c4-\ftenuto
+  b d g,8.(\trill f32 g) a8 f c4-\ftenuto
   e4 f2 d4~
   d8 g, d' e f c f4~ %150
   f e4. f8 g e

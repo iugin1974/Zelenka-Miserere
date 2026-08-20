@@ -15,33 +15,33 @@
   h~
    \once \stemUp h2 a g \noBreak
   a1.\fermata \bar "||"
-  \time 4/4
+  \time 4/4  \newSpacingSection
   r2 e'8 d c e16 e \noBreak %305
   a,8 h c4.( h16[ a] g4)
   c, g'4. g8 f[ g]
-  a[ f] h2 a8[ g]
-  a[ h] c2 c4
+  a[ f] b2 a8[ g]
+  a[ b] c2 c4
   c2 c %310
-  r8 d4 c8 h d g, g
+  r8 d4 c8 b d g, g
   a8. a16 a8 h? c4. c8
-  c4. c8 h a a4~
-  a8 a g([ h)] a d, d' c
-  h4 g r2 %315
-  h4. h8 d4 d
+  c4. c8 b a a4~
+  a8 a g([ b)] a d, d' c
+  b4 g r2 %315
+  b4. b8 d4 d
   es4. es8 c2
-  h4 es2 d4
-  r8 c4 h8 as f16 g as8. as16
+  b4 es2 d4
+  r8 c4 b8 as f16 g as8. as16
   g4 g r f8 g %320
-  a! f h a g f16([ g)] a4~
+  a! f b a g f16([ g)] a4~
   a8 g16([ f)] g8 g a4.( g16[ f]
   e4) f2 r4
-  r2 r4 a8 h
+  r2 r4 a8 b
   c g16 g a4. a8 g f %325
-  h g h([ a16 g] a2)
+  b g b([ a16 g] a2)
   g r4 c~
-  c8 h a c16 c f,8 g a h
+  c8 b a c16 c f,8 g a h
   c2 c,
-  r4 c'4. h8 a c16 c %330
+  r4 c'4. b8 a c16 c %330
   g'4 g, c4. h16[ a]
   g4. f8 e c c'4~
   c h c8[ e] g4~

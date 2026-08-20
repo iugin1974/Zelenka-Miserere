@@ -1,4 +1,4 @@
-\relative {
+\relative c {
   R1*4 %40
   c4.\f^\tutti^\tenuto c8 e4 e
   f4. f8 d2
@@ -36,19 +36,19 @@
   d2 c
   R1
   f4. f8 a4 a
-  h4. h8 g2 %80
+  b4. b8 g2 %80
   f r
   R1
-  h4. h8 d4 d
+  b4. b8 d4 d
   es4. es8 c2
-  h r %85
+  b r %85
   R1
   es,4. es8 g4 g
   as4. as8 f2
   es r
   R1 %90
   r2 f4. f8
-  a4 a h4. h8
+  a4 a b4. b8
   g2 f
   R1*2 %95
   c4. c8 e4 e
@@ -87,19 +87,19 @@
   d2 c
   R1
   f4. f8 a4 a
-  h4. h8 g2 %135
+  b4. b8 g2 %135
   f r
   R1
-  h4. h8 d4 d
+  b4. b8 d4 d
   es4. es8 c2
-  h r %140
+  b r %140
   R1
   es,4. es8 g4 g
   as4. as8 f2
   es r
   R1 %145
   r2 f4. f8
-  a4 a h4. h8
+  a4 a b4. b8
   g2 f
   R1*2 %150
   c4. c8 e4 e

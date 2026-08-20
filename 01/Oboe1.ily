@@ -5,15 +5,15 @@
   es(-. es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
   d(-. d-. d-. d-. d-. d-. d-. d-.) d(-. d-. d-. d-. d-. d-. d-. d-.) %5
   c(-. c-. c-. c-. c-. c-. c-. c-.) c(-. c-. c-. c-. c-. c-. c-. c-.)
-  h(-. h-. h-. h-. h-. h-. h-. h-.) h-.( h-. h-. h-. a-. a-. a-. g-.)
+  b(-. b-. b-. b-. b-. b-. b-. b-.) b-.( b-. b-. b-. a-. a-. a-. g-.)
   fis(-. fis-. fis-. fis-. fis-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-. g-. g-. g-. g-.)
-  g(-. g-. g-. g-. fis-. fis-. fis-. fis-.) h(-. h-. h-. h-. h-. h-. h-. h-.)
+  g(-. g-. g-. g-. fis-. fis-. fis-. fis-.) b(-. b-. b-. b-. b-. b-. b-. b-.)
   a(-. a-. a-. a-. h-. h-. h-. h-.) c(-. c-. c-. c-. c-. c-. c-. c-.) %10
-  c(-. c-. c-. c-. h-. h-. h-. h-.) a(-. a-. a-. a-. a-. a-. a-. a-.)
+  c(-. c-. c-. c-. b-. b-. b-. b-.) a(-. a-. a-. a-. a-. a-. a-. a-.)
   a(-. a-. a-. a-. g-. g-. g-. g-.) d'(-. d-. d-. d-. d-. d-. d-. d-.)
   es(-. es-. es-. es-. es-. es-. es-. es-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
   fis(-. fis-. fis-. fis-. fis-. fis-. fis-. fis-.) g(-. g-. g-. g-. g-. g-. g-. a-.)
-  h(-. h,-. h-. h-. h-. h-. h-. h-.) h8-! h'([ as g)] %15
+  b(-. b,-. b-. b-. b-. b-. b-. b-.) b8-! b'([ as g)] %15
   as16(-. as,-. as-. as-. as-. as-. as-. as-.) as8-! as'([ g fis)]
   g16(-. g,-. g-. g-. g-. g-. g-. g-.) g8-! g'([ f es)]
   d-! f([ es d)] es16(-. es-. es-. es-. es-. es-. es-. es-.)
@@ -33,6 +33,6 @@
   g1~
   g~
   g2. r4
-  r2 fis4.-\fftenuto fis8 %35
+  r2 fis4.\ff-\tenuto fis8 %35
   g4 r r2\fermata \bar "|." %36 finis
 }

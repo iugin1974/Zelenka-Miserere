@@ -15,7 +15,7 @@
   g h g h g h
    g2 fis e \noBreak
   fis1.\fermata \bar "||"
-  \time 4/4  
+  \time 4/4  \newSpacingSection
   g4. f8 e f g e \noBreak %305
   f8. f16 e4 r e'~
   e8 d c e a, a d e
@@ -27,33 +27,36 @@
   g a8 g f4 e
   d4. e8 f2
   r8 g4 f8 es g c,8. c16 %315
-  d4 h'-\ftenuto d2
+  d4 b'-\ftenuto d2
   es c
-  h4 es2 d8. d16
+  b4 es2 d8. d16
   c8 d es16 c d es f8 f, r4
   g'8 f es g d4.\trill d8 %320
   c4 d es d8 c
   d d, d' e f c d4~
   d c d4. c8
-  h d g,8.(\trill f32 g) a8 f c8. d16
+  b d g,8.(\trill f32 g) a8 f c8. d16
   e8 e f2 d4 %325
   d8 g, d' e f c f4~
   f e f g8 e
   a g f4 r2
   e8 f g e a4 g
   a2 g4 f %330
-  e8 g c h16 a g8 c a g16 f
+  e8 g c b16 a g8 c a g16 f
   e8 c c'[ d] e4. d16 e
-  f8 e d4 c4. h8
+  f8 e d4 c4. b8
   a4. g16 a h8 g c d16 e \noBreak
   f4 e d4.\trill d8 
   %%
+  \set Staff.beamExceptions = #'()
+  \set Staff.baseMoment = #(ly:make-moment 1/2)
+  \set Staff.beatStructure = #'(1 1)
   c4 r g8.-\tenuto g16 g8. g16 \noBreak
   g8. g16 g8. g16 f8. f16 f8. f16
   f8. as16 as8. f16 g8. g16 g8. g16
   c8. c16 c8. c16 c8. c16 c8. c16
-  c8. c16 h8. h16 h8. h16 h8. h16 %340
-  h8. h16 a8. a16 a8. a16 a8. a16
+  c8. c16 b8. b16 b8. b16 b8. b16 %340
+  b8. b16 a8. a16 a8. a16 a8. a16
   a4( g) d'8. d16 d8. d16
   d8. d16 d8. d16 c8. c16 c8. c16
   c8. d16 es8. es16 d8. d,16 d8. d16
@@ -62,7 +65,7 @@
   d8-! d'([ c h)] c4. c8
   <h d,>4\fermata r r2
   q8. q16 q8. q16 <c es,! g,>8. <c es, g,>16 q8. q16
-  <c d, g,>8. q16 <h g g,>8. q16 as8. as16 a8. a16 %350
+  <c d, g,>8. q16 <b g g,>8. q16 as8. as16 a8. a16 %350
   <h d, g,>4 c2 h8.\trill h16
   c8-! c([-. c-. c-.)] r c(-.\f c-. c-.)
   r c(-.\ff c-. c-.) r c( h a)
@@ -70,6 +73,6 @@
   r f( es d) r f( es d) %355
   es2. d8 c
   d-\parenthesize-! d([\pp c h)] r c( h a)
-  c4.-\fftenuto c8 d4~ d~\p
+  c4.\ff-\tenuto c8 d4~ d~\p
   d2\pp\fermata r \bar "|." %359 FINIS
 }

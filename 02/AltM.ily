@@ -17,7 +17,7 @@
   a4 gis8([ fis)] gis( a4 gis8)
   a4 e4.( d8) cis([ e)]
   fis4 d4. d8 d4~
-  d8 d cis4 d4.-\ftenuto d8 %55
+  d8 d cis4 d4.\f^\tenuto d8 %55
   fis4 fis g4. g8
   e2 d
   e a,4 r8 a'~
@@ -26,12 +26,12 @@
   gis e a2 gis8[ e16 fis]
   gis8[ h16 a] gis8[ fis] e4. d8
   cis[ d] e4 fis2
-  r e4.-\ftenuto e8
+  r e4.\f^\tenuto e8
   gis4 gis a a %65
   fis2( e)
   fis4 r8 fis4 g8 a([ fis)]
   h a g2 g4
-  r2 d4.-\ftenuto d8
+  r2 d4.\f^\tenuto d8
   fis4 fis g4. g8 %70
   e2 d~
   d c~
@@ -47,7 +47,7 @@
   g a f e8 e
   d4.( e8) f([ d)] f4
   r g8([ f)] es([ g)] c,4
-  d2 h'8([ a)] g([ h)] %85
+  d2 b'8([ a)] g([ b)] %85
   es, f g4. g8 as as
   g4. g8 g2(
   es) f
@@ -55,7 +55,7 @@
   c d es( d8[ c)] %90
   d4 d8([ e)] f c d4~
   d c d4. c8
-  h([ d] g,4) a c8. c16
+  b([ d] g,4) a c8. c16
   e8 e f4. f8 d4~
   d8 c d([ e] f[ c)] f4~ %95
   f8 f e4 g8([ f)] e([ g)]
@@ -72,7 +72,7 @@
   a4 gis8[ fis] gis a4 gis8
   a4 r8 e4( d8) cis[( e])
   fis([ g!)] a fis fis8. e16 d4
-  d cis r8 d4-\ftenuto d8 %110
+  d cis r8 d4\f^\tenuto d8 %110
   fis4 fis g4. g8
   e2( d)
   e r4 a~
@@ -81,12 +81,12 @@
   gis gis16 gis a4. a8 gis[ e16 fis]
   gis8[ h16 a] gis8[ fis] e4 e8 d
   cis([ d] e8.) e16 fis2
-  r e4.-\ftenuto e8
+  r e4.\f^\tenuto e8
   gis4 gis a4. a8 %120
   fis2 e
   fis~ fis8[ g] a fis16 fis
   h8 a g4. g8 g([ e)]
-  a4 r d,4.-\ftenuto d8
+  a4 r d,4.\f^\tenuto d8
   fis4 fis g4. g8 %125
   e2 d~
   d c~
@@ -102,7 +102,7 @@
   g a f e8 e
   d4. e8 f2
   r8 g4 f8 es g16 g c,8 c
-  d8. d16 d8 d h' a g([ h)] %140
+  d8. d16 d8 d b' a g([ b)] %140
   es,([ f)] g4. g8 as4
   g g4. g8 g g
   es2 r
@@ -110,7 +110,7 @@
   c c d d es4( d8[ c)] %145
   d4 d8 e! f c d4~
   d8 d c4 d4.( c8)
-  h([ d)] g,8. g16 a4 c8. c16
+  b([ d)] g,8. g16 a4 c8. c16
   e8 e f4. f8 d4
   d d8([ e)] f c f4~ %150
   f e4. f8 g e
