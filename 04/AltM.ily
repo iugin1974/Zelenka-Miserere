@@ -13,7 +13,7 @@
   a g g %300
   g1.~
   g~
-  \tempoGloriaPatriIIFinis g2 fis e \noBreak
+  \tempoGloriaPatriI g2 fis e \noBreak
   fis1.\fermata \bar "||"
   \time 4/4 \tempoSicutErat \newSpacingSection
   g4. f8 e f g e \noBreak %305

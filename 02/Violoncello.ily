@@ -10,7 +10,7 @@
       a g f e f c f4 %40
     }
   >>
-  \clef bass c,2-\markup { \remark "sempre tenuto" \musicglyph #'"pedal.*" } e
+  \clef bass c,2-\sempreTenuto e
   f d
   c \clef "treble_8" f4 a
   e4. f8 \clef bass g,2
@@ -132,5 +132,5 @@
   c1~
   \tieDashed c~-\tastoSolo
   c~ %155
-  IFinis c\fermata \bar "|." %156 finis
+   c\fermata \bar "|." %156 finis
 }

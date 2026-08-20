@@ -13,7 +13,7 @@
   h2. a4 h2 %300
   h1.~
   h~
-  \tempoGloriaPatriIIFinis \once \stemUp h2 a g \noBreak
+  \tempoGloriaPatriI \once \stemUp h2 a g \noBreak
   a1.\fermata \bar "||"
   \time 4/4 \tempoSicutErat \newSpacingSection
   r2 e'8 d c e16 e \noBreak %305

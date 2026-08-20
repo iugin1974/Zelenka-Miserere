@@ -1,5 +1,5 @@
 \relative {
-  c2-\ftenuto e
+  c'2-\ftenuto e
   f d
   c8 c e e e f g e
   a g f e f c f4~ %40
@@ -20,7 +20,7 @@
   d8 d cis4 d2-\ftenuto %55
   fis g
   e d4 r
-  cis2-\ftenutoE e
+  cis2-\ftenuto e
   fis d~
   d4 cis r2 %60
   R1*2
@@ -62,7 +62,7 @@
   c4. c8 f,4 a
   e4. f8 g2
   r4 g'4. f8 e g %100
-  c4 c, g2\f-\tenutoE
+  c4 c, g2-\ftenuto
   h c
   a g4 g'
   fis4 h a r8 \once\tieDashed d,~
@@ -74,7 +74,7 @@
   a2 d,-\ftenuto %110
   fis g
   e d
-  cis\f-\tenutoE e
+  cis-\ftenuto e
   fis d~
   d4 cis r2 %115
   R1*2
@@ -84,7 +84,7 @@
   fis e4 a,
   a h8 c d4. c8
   h c d h e d4 cis8
-  d d, r4 d'2\f-\tenutoE
+  d d, r4 d'2-\ftenuto
   fis g %125
   e d4 g-\ftenuto
   h2 c
@@ -116,5 +116,5 @@
   g4. g8 f4. e16 g
   a8 a, a'4 g f
   e8 d c h16 a g8 g' a g16 f %155
-  IFinis g8 c, c c c2\fermata \bar "|." %156 finis
+   g8 c, c c c2\fermata \bar "|." %156 finis
 }

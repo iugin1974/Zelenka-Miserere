@@ -45,7 +45,7 @@
   c4 c h8([ a)] a4~
   a8 a g([ h)] a2
   R1
-  r8 h4\f^\tenutoE h8 d4 d %85
+  r8 h4-\ftenuto h8 d4 d %85
   es4. es8 c2
   h4 es2 d4
   r8 c4( h8) as([ g] as) h16([ as)]
@@ -116,5 +116,5 @@
   c2) c,
   r c'8([ h)] a c
   g'4 g, c4. h16[( a]) %155
-  IFinis g4. g8 g2\fermata \bar "|." %156 finis
+   g4. g8 g2\fermata \bar "|." %156 finis
 }

@@ -13,7 +13,7 @@
   h2 d, d %300
   e2. e4 e2
   e e e
-  \tempoGloriaPatriIIFinis \once\tieDashed d1.~ \noBreak
+  \tempoGloriaPatriI \once\tieDashed d1.~ \noBreak
   d\fermata \bar "||"
   \time 4/4 \tempoSicutErat \newSpacingSection
   r4 c4. d8 e c \noBreak %305

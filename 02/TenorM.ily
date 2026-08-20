@@ -1,11 +1,11 @@
 \relative {
   R1*4 %40
-  r2 r4 c~\f^\tutti
+  r2 r4 c'~\f^\tutti
   c8 h a c f,([ g)] a([ h)]
   c4. c8 f,4 a8 a
   e e e f16 f g4 g
   r g4. f16 f e8 g %45
-  c4 c, r8 g'4\f^\tenutoE g8
+  c4 c, r8 g'4-\ftenuto g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -17,7 +17,7 @@
   a4 e d g %55
   d' r e,8([ fis)] g e
   a([ h] c2) h4
-  r8 cis4\f^\tenutoE cis8 e4 e
+  r8 cis4-\ftenuto cis8 e4 e
   fis fis d2~
   d4 cis r2 %60
   R1*2
@@ -59,7 +59,7 @@
   c4. c8 f,4 a
   e4. f8 g2
   r4 g4.( f8) e g %100
-  c4 c, r8 g'4\f^\tenutoE g8
+  c4 c, r8 g'4-\ftenuto g8
   h4 h c4. c8
   a2 g
   fis4 h a r8 d~
@@ -71,7 +71,7 @@
   a8. a16 e4 d( g) %110
   d r e8([ fis)] g e16 e
   a8 h c2 h4
-  r8 cis4\f^\tenutoE cis8 e4 e
+  r8 cis4-\ftenuto cis8 e4 e
   fis fis d2~
   d4 cis r2 %115
   R1*2
@@ -113,5 +113,5 @@
   g8([ f)] e g4 f e16([ g)]
   a4. a8 g4 f
   e c'8([ h16 a]) g8 c a g16([ f)] %155
-  IFinis g8 c, g'8. g16 g2\fermata \bar "|." %156 finis
+   g8 c, g'8. g16 g2\fermata \bar "|." %156 finis
 }

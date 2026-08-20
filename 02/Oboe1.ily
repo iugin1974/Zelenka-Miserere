@@ -116,5 +116,5 @@
   c2 c,
   r4 r8 c'4 h8 a c
   g'4 g, c8 e f4~ %155
-  IFinis f e8 d e2\fermata \bar "|." %156 finis
+   f e8 d e2\fermata \bar "|." %156 finis
 }

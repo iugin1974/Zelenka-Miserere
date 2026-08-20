@@ -107,5 +107,5 @@
   c4 c'4. c8 c4
   c, c c c
   c4. c8 c4 c %155
-  IFinis c4. c8 c2\fermata \bar "|." %156 finis
+   c4. c8 c2\fermata \bar "|." %156 finis
 }

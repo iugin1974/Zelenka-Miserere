@@ -13,7 +13,7 @@
   r g fis %300
   e2. e4 d2
   cis1.
-  \tempoGloriaPatriIIFinis d~ \noBreak
+  \tempoGloriaPatriI d~ \noBreak
   d\fermata \bar "||"
   \clef "treble_8" \time 4/4 \tempoSicutErat \newSpacingSection
   r4 c'4. d8 e c \noBreak %305

@@ -162,6 +162,12 @@ tenuto =
      \markup {\italic{tenuto}}
    #})
 
+sempreTenuto =
+#(define-scheme-function (parser location)()
+   #{
+     \markup {\italic{sempre tenuto}}
+   #})
+
 tasto =
 #(define-scheme-function (parser location)()
    #{

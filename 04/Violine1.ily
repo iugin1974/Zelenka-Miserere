@@ -13,7 +13,7 @@
   <g' h, d, g,>2 h, h %300
   h4-! g'-! h,-! g'-! h,-! g'-!
   h, g' h, g' h, g'
-  \tempoGloriaPatriIIFinis h,2 a g \noBreak
+  \tempoGloriaPatriI h,2 a g \noBreak
   a1.\fermata \bar "||"
   \time 4/4 \tempoSicutErat \newSpacingSection
   r2 e'8. d16 c8 e \noBreak %305

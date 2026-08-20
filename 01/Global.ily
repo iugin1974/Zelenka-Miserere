@@ -4,5 +4,5 @@
   \accidentalStyle modern
   \tempo "Adagio"
   s1*36
-  \bar "||"
+  \bar "|."
 }

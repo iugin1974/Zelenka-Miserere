@@ -1,5 +1,5 @@
 \relative {
-  c2-\ftenuto e
+  c'2-\ftenuto e
   f d
   g h
   c a %40
@@ -8,7 +8,7 @@
   c4. c,8 f g a g16 f
   e8 e e f g2
   r4 g4. f8 e g %45
-  c4 c, g2\f-\tenutoE
+  c4 c, g2-\ftenuto
   h4. g'4 f8 e g
   c,8 d e fis g fis16 e d8 g
   a4 r8 fis4 g8 a fis
@@ -118,5 +118,5 @@
   e8. f16 g8 e a4 g
   f4. f8 e4 f8 c~
   c d e c e c'4 h16 a %155
-  IFinis g4. g8 g2\fermata \bar "|." %156 finis
+   g4. g8 g2\fermata \bar "|." %156 finis
 }
