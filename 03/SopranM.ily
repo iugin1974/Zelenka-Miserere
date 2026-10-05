@@ -36,7 +36,7 @@
   f' e4. d8
   c8. h16 a4 r
   g'4 fis4. e8 %235
-  d!8. cis16 h4 r
+  dis8. cis16 h4 r
   r h e
   c!8. c16 h4 r
   R2.*2 %240
