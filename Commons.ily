@@ -262,6 +262,22 @@ pianoLayout = \layout {
   }
 }
 
+% valore di default: nessuna citazione
+#(define quoteName #f)
+
+cueVc =
+#(define-music-function (music) (ly:music?)
+   (if quoteName
+       #{
+         {
+           \new CueVoice { \set instrumentCueName = "Vc." }
+           \cueDuringWithClef #quoteName #UP "bass" $music
+         }
+       #}
+       music))
+
+
+
 #(define (ly:half-bass-figure-bracket which-side) (lambda (grob)
   (let* (
     (dir-h (if (negative? which-side) -1 +1))

@@ -40,7 +40,7 @@
     }
   }
 
-    \bookpart {
+  \bookpart {
     #(define prefix "02/")
     \score {
       \include #(string-append prefix "Header.ily")
@@ -54,6 +54,10 @@
 
   \bookpart {
     #(define prefix "03/")
+    #(define quoteName "violoncello")
+    \addQuote #quoteName {
+      \include #(string-append prefix "Violoncello.ily")
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -64,7 +68,7 @@
     }
   }
 
-   \bookpart {
+  \bookpart {
     #(define prefix "04/")
     \score {
       \include #(string-append prefix "Header.ily")

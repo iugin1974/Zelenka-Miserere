@@ -30,10 +30,10 @@
   e8-!\p e'-! c4 h
   e,8\f h' c4 h8 dis
   \tuplet 3/2 4 { e-! h-! g-! } \appoggiatura fis e4\trill r
-  R2.*4 %192
+  \cueVc { R2.*4 } %192
   r8 h'\f e16-! dis-! e-! dis-! e8 e,
   r fis h16-! ais-! h-! ais-! h8 fis
-  R2.*11 %205
+  \cueVc { R2.*11 }  %205
   r8 d\f g16-! fis-! g-! fis-! g8 r
   r d d'16-! cis-! d-! cis-! d8 d,
   R2.*12 %219
@@ -47,7 +47,7 @@
   g8-!\p g'-! es4-! d-!
   g,8\f d' e4 d8 fis
   \tuplet 3/2 4 { g-! d-! h-! } g4 r
-  R2.*22 %251
+  \cueVc { R2.*22 } %251
   g'4-!\f a-! h-!
   r8 c-! r h-! a8.(\trill g32 a)
   \tuplet 3/2 4 { h8-! fis-! dis-! } h4\trill r

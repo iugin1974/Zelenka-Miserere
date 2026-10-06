@@ -1,4 +1,5 @@
 {
+  \compressEmptyMeasures
   \key e \minor
   \time 3/4
   \accidentalStyle modern

@@ -1,4 +1,5 @@
 {
+  \compressEmptyMeasures
   \key c \major
   \time 3/2
   \accidentalStyle modern

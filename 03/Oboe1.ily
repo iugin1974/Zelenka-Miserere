@@ -35,11 +35,11 @@
   g'8\f g4 g\trill c16( g)
   fis8 fis4 fis\trill h16( fis)
   e8-! r r4 r %195
-  R2.*10 %205
+  \cueVc { R2.*10 } %205
   b8\f b4 b\trill es16( b)
   a8 a4 a\trill d16( a)
   g8-! r r4 r
-  R2.*11 %219
+  \cueVc { R2.*11 } %219
   g'16(\f f8.) es16( d8.) c16( h!8.) %220
   \appoggiatura h!8 c4.( d16 es) d8( c)
   \once \slurDashed b16( g8.) a4.\trill g8
@@ -50,11 +50,11 @@
   g8-!\p g'-! r a r fis
   d'8.\f g,16 \appoggiatura h!8 a4.\trill g8
   \tuplet 3/2 4 { g-! d-! h-! } g4 r
-  R2.*22 %251
+  \cueVc { R2.*22 } %251
   g'4\f a h
   r8 c-! r h-! a8.(\trill g32 a)
   \tuplet 3/2 4 { h8-! fis-! dis-! } h4\trill r
-  R2.*9 %253
+  \cueVc { R2.*9 } %253
   R2.\fermata_\adlibitum
   gis'4-!\ff gis-! gis^\tenuto %265
   a8 f4 e d8

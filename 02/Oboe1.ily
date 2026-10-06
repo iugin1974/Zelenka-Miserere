@@ -1,120 +1,120 @@
 \relative {
-  R1*2 %38
-  g'2-\ftenuto h
-  c a %40
-  g r8 c4 b8
-  a4 c b a~
-  a8 a g4 a8 a e e
-  g4. f16 e d4 g
-  d r r c'~ %45
-  c8 h a c h g r h~
-  h c d h e d c h
-  c2 h
-  R1*2 %50
-  a2-\ftenuto cis
-  d h
-  a1
-  R
-  r8 a4 g8 fis a h a16 g %55
-  a8 d, d' c h4 r8 \once\tieDashed c!~
-  c h a c gis a4 gis8
-  a2. r4
-  fis8 g a fis gis a4 gis8
-  a4 e8-! fis-! g a h4~ %60
-  h c! h2~
-  h h
-  r4 a4. h8 cis a
-  h cis h8. h16 cis8 e a4
-  r4 e4. d8 cis e %65
-  a, h16 cis d2 c4~
-  c8 h a4 r d~
-  d8 c! h d g, a h a16 g
-  fis8 gis a4. gis16 fis gis8.\trill a16
-  a4 r8 d4 c8 h h %70
-  h4 a h4. a8
-  g4 r e8 fis g e
-  a g4 fis8 g4 d
-  e r e'8. d16 c8 e
-  a, h c4. h16 a g4 %75
-  c, r r8 f4 g8
-  a f b4. b8 a g
-  a f c'2 c4
-  c1
-  r8 d4 c8 b d g, g %80
-  a4. b8 c2~
-  c4 c b8 a a4~
-  a8 a g b a2
-  R1
-  b2-\ftenuto d %85
-  es c
-  b4 es2 d4
-  r8 c4 b8 as g as b16 as
-  g8 b es4 r f,8 g
-  a! f b a g f16 g a4~ %90
-  a8 g16 f g8. g16 a4. g16 f
-  e4 a8 g f b f'4
-  r2 r4 a,8 b
-  c g a2 g8 f
-  b4. a16 g a2 %95
-  g r8 c4 b8
-  a a16 b c8 c b4 a~
-  a g8. g16 a8 g16 f e8 f
-  g4. f16 e d4 d'
-  g,8 d' g4 r r8 c,~ %100
-  c h a c h g r h~
-  h c d h e d c h
-  c2. h4
-  a r r2
-  R1 %105
-  a2-\ftenuto cis
-  d h
-  a8 r r4 r2
-  R1
-  r8 a4 g8 fis a h a16 g %110
-  a8 d, d' c h g r c~
-  c h a c gis a4 gis8
-  a e' a4 r2
-  fis8 g a fis gis a4 gis8
-  a a, e fis gis a h4~ %115
-  h8 e, cis' cis h2
-  h4. h8 h2
-  r4 a4. h8 cis a
-  h cis h e16 d16 cis4 h
-  r e4. d8 cis e %120
-  a, h16 c d2 c!4~
-  c h a8 d, d'4~
-  d8 c h d g, a h a16 g
-  fis8 g a4. gis16 fis gis8.\trill a16
-  a4 d4. c8 h h %125
-  h4 a h4. a8
-  g4 r e8 f! g e
-  a g4 fis8 g4 d
-  e r e'8 d c e
-  a, h c4. h16 a g4 %130
-  c,8 c g'4. g8 f g
-  a f b2 a8 g
-  a b c2 c4
-  c4. c8 c2
-  r8 d4 c8 b d g, g %135
-  a a a h c8. c16 c8 c
-  c4 c8 c b a a4~
-  a g8 b a d, d'8. c16
-  b8 r r4 r2
-  b2-\ftenuto d %140
-  es c
-  b4 es2 d4
-  r8 c4 b8 as b16 as as8. as16
-  g8 b es4 r4 f,8 g
-  a! f b a g f16 g a4~ %145
-  a8 g16 f g4 a4. g16 f
-  e8. e16 f2 r4
-  r2 r4 a8 b
-  c g a2 g8 f
-  b8. b16 b8 a16 g a4.\trill a8 %150
-  g2 r4 c~
-  c8 b a c f, g a h
-  c2 c,
-  r4 r8 c'4 b8 a c
-  g'4 g, c8 e f4~ %155
-   f e8 d e2\fermata \bar "|." %156 finis
-}
+  R1*2 %38 |
+  g'2-\ftenuto h2 |
+  c2 a2 %40 |
+  g2 r8 c4 b8 |
+  a4 c4 b4 a4~ |
+  a8 a8 g4 a8 a8 e8 e8 |
+  g4. f16 e16 d4 g4 |
+  d4 r4 r4 c'4~ %45 |
+  c8 h8 a8 c8 h8 g8 r8 h8~ |
+  h8 c8 d8 h8 e8 d8 c8 h8 |
+  c2 h2 |
+  R1*2 %50 |
+  a2-\ftenuto cis2 |
+  d2 h2 |
+  a1 |
+  R1 |
+  r8 a4 g8 fis8 a8 h8 a16 g16 %55 |
+  a8 d,8 d'8 c8 h4 r8 \once\tieDashed c!8~ |
+  c8 h8 a8 c8 gis8 a4 gis8 |
+  a2. r4 |
+  fis8 g8 a8 fis8 gis8 a4 gis8 |
+  a4 e8-! fis8-! g8 a8 h4~ %60 |
+  h4 c!4 h2~ |
+  h2 h2 |
+  r4 a4. h8 cis8 a8 |
+  h8 cis8 h8. h16 cis8 e8 a4 |
+  r4 e4. d8 cis8 e8 %65 |
+  a,8 h16 cis16 d2 c4~ |
+  c8 h8 a4 r4 d4~ |
+  d8 c!8 h8 d8 g,8 a8 h8 a16 g16 |
+  fis8 gis8 a4. gis16 fis16 gis8.\trill a16 |
+  a4 r8 d4 c8 h8 h8 %70 |
+  h4 a4 h4. a8 |
+  g4 r4 e8 fis8 g8 e8 |
+  a8 g4 fis8 g4 d4 |
+  e4 r4 e'8. d16 c8 e8 |
+  a,8 h8 c4. h16 a16 g4 %75 |
+  c,4 r4 r8 f4 g8 |
+  a8 f8 b4. b8 a8 g8 |
+  a8 f8 c'2 c4 |
+  c1 |
+  r8 d4 c8 b8 d8 g,8 g8 %80 |
+  a4. b8 c2~ |
+  c4 c4 b8 a8 a4~ |
+  a8 a8 g8 b8 a2 |
+  R1 |
+  b2-\ftenuto d2 %85 |
+  es2 c2 |
+  b4 es2 d4 |
+  r8 c4 b8 as8 g8 as8 b16 as16 |
+  g8 b8 es4 r4 f,8 g8 |
+  a!8 f8 b8 a8 g8 f16 g16 a4~ %90 |
+  a8 g16 f16 g8. g16 a4. g16 f16 |
+  e4 a8 g8 f8 b8 f'4 |
+  r2 r4 a,8 b8 |
+  c8 g8 a2 g8 f8 |
+  b4. a16 g16 a2 %95 |
+  g2 r8 c4 b8 |
+  a8 a16 b16 c8 c8 b4 a4~ |
+  a4 g8. g16 a8 g16 f16 e8 f8 |
+  g4. f16 e16 d4 d'4 |
+  g,8 d'8 g4 r4 r8 c,8~ %100 |
+  c8 h8 a8 c8 h8 g8 r8 h8~ |
+  h8 c8 d8 h8 e8 d8 c8 h8 |
+  c2. h4 |
+  a4 r4 r2 |
+  R1 %105 |
+  a2-\ftenuto cis2 |
+  d2 h2 |
+  a8 r8 r4 r2 |
+  R1 |
+  r8 a4 g8 fis8 a8 h8 a16 g16 %110 |
+  a8 d,8 d'8 c8 h8 g8 r8 c8~ |
+  c8 h8 a8 c8 gis8 a4 gis8 |
+  a8 e'8 a4 r2 |
+  fis8 g8 a8 fis8 gis8 a4 gis8 |
+  a8 a,8 e8 fis8 gis8 a8 h4~ %115 |
+  h8 e,8 cis'8 cis8 h2 |
+  h4. h8 h2 |
+  r4 a4. h8 cis8 a8 |
+  h8 cis8 h8 e16 d16 cis4 h4 |
+  r4 e4. d8 cis8 e8 %120 |
+  a,8 h16 c16 d2 c!4~ |
+  c4 h4 a8 d,8 d'4~ |
+  d8 c8 h8 d8 g,8 a8 h8 a16 g16 |
+  fis8 g8 a4. gis16 fis16 gis8.\trill a16 |
+  a4 d4. c8 h8 h8 %125 |
+  h4 a4 h4. a8 |
+  g4 r4 e8 f!8 g8 e8 |
+  a8 g4 fis8 g4 d4 |
+  e4 r4 e'8 d8 c8 e8 |
+  a,8 h8 c4. h16 a16 g4 %130 |
+  c,8 c8 g'4. g8 f8 g8 |
+  a8 f8 b2 a8 g8 |
+  a8 b8 c2 c4 |
+  c4. c8 c2 |
+  r8 d4 c8 b8 d8 g,8 g8 %135 |
+  a8 a8 a8 h8 c8. c16 c8 c8 |
+  c4 c8 c8 b8 a8 a4~ |
+  a4 g8 b8 a8 d,8 d'8. c16 |
+  b8 r8 r4 r2 |
+  b2-\ftenuto d2 %140 |
+  es2 c2 |
+  b4 es2 d4 |
+  r8 c4 b8 as8 b16 as16 as8. as16 |
+  g8 b8 es4 r4 f,8 g8 |
+  a!8 f8 b8 a8 g8 f16 g16 a4~ %145 |
+  a8 g16 f16 g4 a4. g16 f16 |
+  e8. e16 f2 r4 |
+  r2 r4 a8 b8 |
+  c8 g8 a2 g8 f8 |
+  b8. b16 b8 a16 g16 a4.\trill a8 %150 |
+  g2 r4 c4~ |
+  c8 b8 a8 c8 f,8 g8 a8 h8 |
+  c2 c,2 |
+  r4 r8 c'4 b8 a8 c8 |
+  g'4 g,4 c8 e8 f4~ %155 |
+   f4 e8 d8 e2\fermata \bar "|." %156 finis |
+} 
