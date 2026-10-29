@@ -36,7 +36,7 @@
   \cueVc { R2.*11 }  %205
   r8 d\f g16-! fis-! g-! fis-! g8 r
   r d d'16-! cis-! d-! cis-! d8 d,
-  R2.*12 %219
+  \cueVc { R2.*12 } %219
   g'16(\f f8.) es16( d8.) c16( h!8.) %220
   \appoggiatura h!8 \once\slurDashed c4.( d16 es) d8( c)
   b16( g8.) g4 fis
@@ -51,7 +51,7 @@
   g'4-!\f a-! h-!
   r8 c-! r h-! a8.(\trill g32 a)
   \tuplet 3/2 4 { h8-! fis-! dis-! } h4\trill r
-  R2.*9 %263
+  \cueVc { R2.*9 } %263
   R2.\fermata_\adlibitum
   h4-!\ff h-! h^\tenuto %265
   a'8 f4 e d8
