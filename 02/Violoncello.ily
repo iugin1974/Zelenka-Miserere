@@ -12,19 +12,19 @@
   >>
   \clef bass c,2-\sempreTenuto e
   f d
-  c \clef "treble_8" f4 a
+  c \tag #'soloVoice \tag #'soloVoice \clef "treble_8" f4 a
   e4. f8 \clef bass g,2
   h c %45
   a g
-  \clef "treble_8" h' c
+  \tag #'soloVoice \clef "treble_8" h' c
   a g
   \clef bass d fis
   g e %50
-  d4 \clef "treble_8" fis4. g8 a fis
+  d4 \tag #'soloVoice \clef "treble_8" fis4. g8 a fis
   h2 e8 d16 cis h8 e
   \clef bass a,,2 cis
   d h
-  a \clef "treble_8" d4 g %55
+  a \tag #'soloVoice \clef "treble_8" d4 g %55
   d' r e,8 fis g e
   a h c2 h4
   \clef bass a2 cis
@@ -40,53 +40,53 @@
   >>
   \clef bass e,2 gis
   a fis
-  e \clef "treble_8" a
+  e \tag #'soloVoice \clef "treble_8" a
   e'8 d cis e a,4. h16 cis %65
   d8 cis h a gis4 a
   \clef bass d,2 fis
   g e
-  d4 \clef "treble_8" fis8 g16 a h2
+  d4 \tag #'soloVoice \clef "treble_8" fis8 g16 a h2
   a8 d4 c8 h c16 d e4 %70
   c2 \clef bass g,
   h c
-  a g4 \clef "treble_8" g'
+  a g4 \tag #'soloVoice \clef "treble_8" g'
   c, c'4. d8 e c
   f e16 d c8 d \clef bass c,2 %75
   e f
   d c
-  \clef "treble_8" r8 a'4 g8 f a e c
+  \tag #'soloVoice \clef "treble_8" r8 a'4 g8 f a e c
   \clef bass f2 a
   b g %80
-  f \clef "treble_8" r4 c'
+  f \tag #'soloVoice \clef "treble_8" r4 c'
   e f d c
   \clef bass b,2 d
   es c
-  b \clef "treble_8" g'8 a b g %85
+  b \tag #'soloVoice \clef "treble_8" g'8 a b g %85
   c c, c' d es c f4
   \clef bass es,2 g
   as f
-  es4 \clef "treble_8" c'4. b16 a b4
+  es4 \tag #'soloVoice \clef "treble_8" c'4. b16 a b4
   a g2 f4 %90
   b2 \clef bass f,
   a b
   g f
-  \clef "treble_8" r4 f'-\tenuto a b
+  \tag #'soloVoice \clef "treble_8" r4 f'-\tenuto a b
   g2 f4 a8 h %95
   \clef bass c,2 e
   f d
-  c \clef "treble_8" f4 a
+  c \tag #'soloVoice \clef "treble_8" f4 a
   e4. f8 \clef bass g,2
   h c %100
-  a g4 \clef "treble_8" g'-\tenuto
+  a g4 \tag #'soloVoice \clef "treble_8" g'-\tenuto
   h2 c
   a g
   \clef bass d fis
   g e %105
-  d4 \clef "treble_8" fis4. g8 a fis
+  d4 \tag #'soloVoice \clef "treble_8" fis4. g8 a fis
   h4 h, e'8 d16 c h8 e
   \clef bass a,,2 cis
   d h
-  a \clef "treble_8" d8 fis g4 %110
+  a \tag #'soloVoice \clef "treble_8" d8 fis g4 %110
   d r e8 fis g e
   a h c2 h4
   \clef bass a2 cis
@@ -95,37 +95,37 @@
   gis e a4. a8 gis e16 fis
   \clef bass e,2 gis
   a fis
-  e \clef "treble_8" a4 e'~
+  e \tag #'soloVoice \clef "treble_8" a4 e'~
   e8 d cis e a,4. cis8 %120
   d c h a gis4 a
   \clef bass d,2 fis
   g e
-  d \clef "treble_8" h'
+  d \tag #'soloVoice \clef "treble_8" h'
   a8 d4 c8 h4 e %125
   c2 \clef bass g,
   h c
   a g
-  \clef "treble_8" r4 c'4. d8 e c
+  \tag #'soloVoice \clef "treble_8" r4 c'4. d8 e c
   f e16 d c8 d \clef bass c,2 %130
   e f
   d c
-  \clef "treble_8" r8 a'4 g8 f a e4
+  \tag #'soloVoice \clef "treble_8" r8 a'4 g8 f a e4
   \clef bass f2 a
   b g %135
-  f4 \clef treble f'8 d e c \clef "treble_8" c4
+  f4 \clef treble f'8 d e c \tag #'soloVoice \clef "treble_8" c4
   e f d c
   \clef bass b,2 d
   es c
-  b \clef "treble_8" g'8 a b g %140
+  b \tag #'soloVoice \clef "treble_8" g'8 a b g %140
   c4. d8 es c f4
   \clef bass es,2 g
   as f
-  es4 \clef "treble_8" c'4. b16 a b4
+  es4 \tag #'soloVoice \clef "treble_8" c'4. b16 a b4
   a g2 f4 %145
   b2 \clef bass f,
   a b
   g f
-  \clef "treble_8" r4 f' a b
+  \tag #'soloVoice \clef "treble_8" r4 f' a b
   g2 f8 g a b %150
   \clef bass c,2 e
   f d
