@@ -41,6 +41,10 @@
   }
 
   \bookpart {
+  \markup {}
+  }
+  
+  \bookpart {
     #(define prefix "02/")
     \score {
       \include #(string-append prefix "Header.ily")

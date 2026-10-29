@@ -40,6 +40,8 @@
     }
   }
 
+\bookpart { \markup {} }
+
     \bookpart {
     #(define prefix "02/")
     \score {
